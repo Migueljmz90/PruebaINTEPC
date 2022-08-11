@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__Enable_Call_Logs__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>If using Internet Explorer, do not check this box. Internet Explorer has problems saving the call log when multiple browser tabs or windows are open, so this setting prevents edits to the call log altogether.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If using Internet Explorer, do not check this box. Internet Explorer has problems saving the call log when multiple browser tabs or windows are open, so this setting prevents edits to the call log altogether.</inlineHelpText>
+    <label>Enable Call Log Editing</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

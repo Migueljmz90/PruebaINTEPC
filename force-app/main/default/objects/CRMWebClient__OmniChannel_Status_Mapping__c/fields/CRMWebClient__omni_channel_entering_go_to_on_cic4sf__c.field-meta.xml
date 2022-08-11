@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__omni_channel_entering_go_to_on_cic4sf__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The status to go to on PureConnect for Salesforce when the entering status is entered on Omni-Channel.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The status to go to on PureConnect for Salesforce when the entering status is entered on Omni-Channel.</inlineHelpText>
+    <label>Omni Ch. Entering Go To On PureConnect</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

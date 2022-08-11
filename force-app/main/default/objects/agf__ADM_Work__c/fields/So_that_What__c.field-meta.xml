@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>So_that_What__c</fullName>
+    <externalId>false</externalId>
+    <label>So that(What)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Conciliar información</fullName>
+                <default>false</default>
+                <label>Conciliar información</label>
+            </value>
+            <value>
+                <fullName>Estabilidad de sistemas</fullName>
+                <default>false</default>
+                <label>Estabilidad de sistemas</label>
+            </value>
+            <value>
+                <fullName>Validación contratos. (Post)</fullName>
+                <default>false</default>
+                <label>Validación contratos. (Post)</label>
+            </value>
+            <value>
+                <fullName>Diferencia proceso MX y CA.</fullName>
+                <default>false</default>
+                <label>Diferencia proceso MX y CA.</label>
+            </value>
+            <value>
+                <fullName>Prospección lenta en SEC</fullName>
+                <default>false</default>
+                <label>Prospección lenta en SEC</label>
+            </value>
+            <value>
+                <fullName>Eliminar cobro por tecnico</fullName>
+                <default>false</default>
+                <label>Eliminar cobro por tecnico</label>
+            </value>
+            <value>
+                <fullName>Cobertura BT internet</fullName>
+                <default>false</default>
+                <label>Cobertura BT internet</label>
+            </value>
+            <value>
+                <fullName>Publicidad cooperativa para apoyo de distribuidores</fullName>
+                <default>false</default>
+                <label>Publicidad cooperativa para apoyo de distribuidores</label>
+            </value>
+            <value>
+                <fullName>Nula Visibilidad en stock y desabasto materiales</fullName>
+                <default>false</default>
+                <label>Nula Visibilidad en stock y desabasto materiales</label>
+            </value>
+            <value>
+                <fullName>Ausencia de datos</fullName>
+                <default>false</default>
+                <label>Ausencia de datos</label>
+            </value>
+            <value>
+                <fullName>Mala experiencia de cliente</fullName>
+                <default>false</default>
+                <label>Mala experiencia de cliente</label>
+            </value>
+            <value>
+                <fullName>No hay seguimiento de casos</fullName>
+                <default>false</default>
+                <label>No hay seguimiento de casos</label>
+            </value>
+            <value>
+                <fullName>No hay lealtad a la marca</fullName>
+                <default>false</default>
+                <label>No hay lealtad a la marca</label>
+            </value>
+            <value>
+                <fullName>No hay comunicación de beneficios</fullName>
+                <default>false</default>
+                <label>No hay comunicación de beneficios</label>
+            </value>
+            <value>
+                <fullName>Facilidad de compra</fullName>
+                <default>false</default>
+                <label>Facilidad de compra</label>
+            </value>
+            <value>
+                <fullName>No hay personalización de contenido</fullName>
+                <default>false</default>
+                <label>No hay personalización de contenido</label>
+            </value>
+            <value>
+                <fullName>Mejorar desempeño de los sistemas</fullName>
+                <default>false</default>
+                <label>Mejorar desempeño de los sistemas</label>
+            </value>
+            <value>
+                <fullName>Mejorar la productividad</fullName>
+                <default>false</default>
+                <label>Mejorar la productividad</label>
+            </value>
+            <value>
+                <fullName>Falta de visibilidad de conversaciones en RS</fullName>
+                <default>false</default>
+                <label>Falta de visibilidad de conversaciones en RS</label>
+            </value>
+            <value>
+                <fullName>No hay visibilidad para toma de decisiones</fullName>
+                <default>false</default>
+                <label>No hay visibilidad para toma de decisiones</label>
+            </value>
+            <value>
+                <fullName>Documental</fullName>
+                <default>false</default>
+                <label>Documental</label>
+            </value>
+            <value>
+                <fullName>Complejidad manejo Presupuesto</fullName>
+                <default>false</default>
+                <label>Complejidad manejo Presupuesto</label>
+            </value>
+            <value>
+                <fullName>Administracion manual</fullName>
+                <default>false</default>
+                <label>Administracion manual</label>
+            </value>
+            <value>
+                <fullName>No captura prospectos</fullName>
+                <default>false</default>
+                <label>No captura prospectos</label>
+            </value>
+            <value>
+                <fullName>Carencia Seguimiento</fullName>
+                <default>false</default>
+                <label>Carencia Seguimiento</label>
+            </value>
+            <value>
+                <fullName>Multiples fronts</fullName>
+                <default>false</default>
+                <label>Multiples fronts</label>
+            </value>
+            <value>
+                <fullName>Malad calidad de datos</fullName>
+                <default>false</default>
+                <label>Malad calidad de datos</label>
+            </value>
+            <value>
+                <fullName>Asignacion de Cuotas</fullName>
+                <default>false</default>
+                <label>Asignacion de Cuotas</label>
+            </value>
+            <value>
+                <fullName>Complejidad Alta Distribuidor</fullName>
+                <default>false</default>
+                <label>Complejidad Alta Distribuidor</label>
+            </value>
+            <value>
+                <fullName>MDU no identificados</fullName>
+                <default>false</default>
+                <label>MDU no identificados</label>
+            </value>
+            <value>
+                <fullName>Informacion incompleta</fullName>
+                <default>false</default>
+                <label>Informacion incompleta</label>
+            </value>
+            <value>
+                <fullName>No asignacion de equipos</fullName>
+                <default>false</default>
+                <label>No asignacion de equipos</label>
+            </value>
+            <value>
+                <fullName>Tiempo entre cambio y el crecimiento</fullName>
+                <default>false</default>
+                <label>Tiempo entre cambio y el crecimiento</label>
+            </value>
+            <value>
+                <fullName>Manejo de papeleria</fullName>
+                <default>false</default>
+                <label>Manejo de papeleria</label>
+            </value>
+            <value>
+                <fullName>Doble registro de informacion fisica/electronica</fullName>
+                <default>false</default>
+                <label>Doble registro de informacion fisica/electronica</label>
+            </value>
+            <value>
+                <fullName>No hay certeza que la visita se haga en el lugar del distribuidor</fullName>
+                <default>false</default>
+                <label>No hay certeza que la visita se haga en el lugar del distribuidor</label>
+            </value>
+            <value>
+                <fullName>No contar con la informacion del Distribuidor en el momento de la visita</fullName>
+                <default>false</default>
+                <label>No contar con la informacion del Distribuidor en el momento de la visita</label>
+            </value>
+            <value>
+                <fullName>No se aprovecha la informacion registrada en CAS.</fullName>
+                <default>false</default>
+                <label>No se aprovecha la informacion registrada en CAS.</label>
+            </value>
+            <value>
+                <fullName>No cuentan con informacion de las visitas anteriores</fullName>
+                <default>false</default>
+                <label>No cuentan con informacion de las visitas anteriores</label>
+            </value>
+            <value>
+                <fullName>No hay seguimiento a los compromisos con los Distribuidores</fullName>
+                <default>false</default>
+                <label>No hay seguimiento a los compromisos con los Distribuidores</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Ausencia de proceso de prospecto de Master</fullName>
+                <default>false</default>
+                <label>(MA/DI) Ausencia de proceso de prospecto de Master</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Ausencia de cobertura Regional Master</fullName>
+                <default>false</default>
+                <label>(MA/DI) Ausencia de cobertura Regional Master</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Información dispersa e incompleta</fullName>
+                <default>false</default>
+                <label>(MA/DI) Información dispersa e incompleta</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Plataforma única de operación</fullName>
+                <default>false</default>
+                <label>(MA/DI) Plataforma única de operación</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Acceso a información de Técnicos y Vendedores</fullName>
+                <default>false</default>
+                <label>(MA/DI) Acceso a información de Técnicos y Vendedores</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Información centralizada de Bonos, Comisiones, Penalizaciones</fullName>
+                <default>false</default>
+                <label>(MA/DI) Información centralizada de Bonos, Comisiones, Penalizaciones</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) No hay alertas sobre cambios importantes en Distribuidores</fullName>
+                <default>false</default>
+                <label>(MA/DI) No hay alertas sobre cambios importantes en Distribuidores</label>
+            </value>
+            <value>
+                <fullName>(MDU) Identificacion de MDU</fullName>
+                <default>false</default>
+                <label>(MDU) Identificacion de MDU</label>
+            </value>
+            <value>
+                <fullName>(MDU) Ciclo de vida de la direccion</fullName>
+                <default>false</default>
+                <label>(MDU) Ciclo de vida de la direccion</label>
+            </value>
+            <value>
+                <fullName>(MDU) Asociacion a un MDU previamente registrado</fullName>
+                <default>false</default>
+                <label>(MDU) Asociacion a un MDU previamente registrado</label>
+            </value>
+            <value>
+                <fullName>(MDU) Atributos Tecnicos (NIT)</fullName>
+                <default>false</default>
+                <label>(MDU) Atributos Tecnicos (NIT)</label>
+            </value>
+            <value>
+                <fullName>(MDU) Cambio de estado de bandera</fullName>
+                <default>false</default>
+                <label>(MDU) Cambio de estado de bandera</label>
+            </value>
+            <value>
+                <fullName>(MDU) Productividad del Distribuidor MDU</fullName>
+                <default>false</default>
+                <label>(MDU) Productividad del Distribuidor MDU</label>
+            </value>
+            <value>
+                <fullName>(MDU) Catalogo de producto por tecnologia</fullName>
+                <default>false</default>
+                <label>(MDU) Catalogo de producto por tecnologia</label>
+            </value>
+            <value>
+                <fullName>(MDU) Inventarios suficientes asignados para cada tecnologia MDU</fullName>
+                <default>false</default>
+                <label>(MDU) Inventarios suficientes asignados para cada tecnologia MDU</label>
+            </value>
+            <value>
+                <fullName>(MDU) Controlar venta de multicajas en MDU</fullName>
+                <default>false</default>
+                <label>(MDU) Controlar venta de multicajas en MDU</label>
+            </value>
+            <value>
+                <fullName>(MDU) Control de cobros de MDU</fullName>
+                <default>false</default>
+                <label>(MDU) Control de cobros de MDU</label>
+            </value>
+            <value>
+                <fullName>(SM) Uso de diferentes plataformas para completar el proceso</fullName>
+                <default>false</default>
+                <label>(SM) Uso de diferentes plataformas para completar el proceso</label>
+            </value>
+            <value>
+                <fullName>(SM) Inconsistencias en la información</fullName>
+                <default>false</default>
+                <label>(SM) Inconsistencias en la información</label>
+            </value>
+            <value>
+                <fullName>(SM) Limitación de modelos disponibles para ejecutar la aplicación</fullName>
+                <default>false</default>
+                <label>(SM) Limitación de modelos disponibles para ejecutar la aplicación</label>
+            </value>
+            <value>
+                <fullName>(SM) Conectividad discontinua (Online-Offline)</fullName>
+                <default>false</default>
+                <label>(SM) Conectividad discontinua (Online-Offline)</label>
+            </value>
+            <value>
+                <fullName>(SM) Desconocimiento de la ubicacion del usuario</fullName>
+                <default>false</default>
+                <label>(SM) Desconocimiento de la ubicacion del usuario</label>
+            </value>
+            <value>
+                <fullName>(SM) Retroalimentacion de domicilios visitados</fullName>
+                <default>false</default>
+                <label>(SM) Retroalimentacion de domicilios visitados</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

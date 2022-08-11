@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Altas_de_claves_operativas_Queue_Case1</fullName>
+    <filterScope>Queue</filterScope>
+    <label>Altas de claves operativas Queue</label>
+    <queue>LXD_Altas_de_claves_operativas_Queue</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

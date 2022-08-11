@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Tipo_ID__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Tipo de identificación Técnico, Vendedor, .....</inlineHelpText>
+    <label>Tipo ID</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Credencial para votar (INE)</fullName>
+                <default>false</default>
+                <label>Credencial para votar (INE)</label>
+            </value>
+            <value>
+                <fullName>Licencia para conducir</fullName>
+                <default>false</default>
+                <label>Licencia para conducir</label>
+            </value>
+            <value>
+                <fullName>Pasaporte</fullName>
+                <default>false</default>
+                <label>Pasaporte</label>
+            </value>
+            <value>
+                <fullName>Cartilla Militar</fullName>
+                <default>false</default>
+                <label>Cartilla Militar</label>
+            </value>
+            <value>
+                <fullName>Credencial IMSS</fullName>
+                <default>false</default>
+                <label>Credencial IMSS</label>
+            </value>
+            <value>
+                <fullName>Excepción</fullName>
+                <default>false</default>
+                <label>Excepción</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

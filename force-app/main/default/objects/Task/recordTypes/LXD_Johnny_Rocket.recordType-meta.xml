@@ -1,0 +1,1694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Johnny_Rocket</fullName>
+    <active>true</active>
+    <label>LXD_Johnny_Rocket</label>
+    <picklistValues>
+        <picklist>LXD_Clasificacion__c</picklist>
+        <values>
+            <fullName>LXD_Admon Vtas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_BTI Combos %28BT-Video%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Blue Telecomm Inalámbrico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_CAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cierre de Ticket</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta Val Capa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_DocuSign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda Técnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_EDICOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error 80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en IVR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_HEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Hi Jump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_LOGISTICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Llamada Transferida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Llamada de Prueba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Llamada de salida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Llamada sin voz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Mesa de Reparaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Mesa de Validación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Migracion Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_NIG%2FRecuperador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_News Letter y Comunicados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_NoCT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Reactivaciones VeTV HD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Refrendo técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Resultados de Cursos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_SAP Commissions Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_SKY Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_SQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Seguimiento Vtas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Skynews</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Suscriptor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_skySPORTS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Subclasificacion__c</picklist>
+        <values>
+            <fullName>LXD_Acceso al portal de saldos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Activacion de Módem Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Activaciones y Cambio de estatus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Activación de Módem SPBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Activación de NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Activación de NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Actualización y Registro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Advanced setup secundario ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Agregar Perfil Técnico%2FVenderor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Agregar perfil a clave operativa NIT o NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Alta Padre de NIT Perfil Técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Apoyo para descargar SKY MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Asentamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Baja temporal de NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Bloqueo de puente de pareo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Bolsas no disponibles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Bolsas no disponibles BTCel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Bouquet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Bouquet React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Bouquet Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Bouquet skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Buzón de voz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cableado E80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cableado HDMI ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cableado coaxial ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Call Center Call Back React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Call Center Call Back Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Call Center Migración HD React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio Padre de NIT Perfil Técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio contraseña de DI Perfil Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio contraseña de NIT Perfil Técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio de Grupo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio de contraseña NIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio de contraseña NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio de contraseña NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio de correo y reenvío</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cambio de información</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Canalización con Soporte Administrativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cancelación de SS Crec BTCel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cancelación o corrección de SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cancelación o corrección de SS TMK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Carga de Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Carga de Software React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Carga de Software Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cierre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cliente no recibe mail DocuSing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cliente no recibe mail confirmacion correo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Comercial %28Precios y%2Fo Paquetes%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Comercial %28Precios y%2Fo Paquetes%29 Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Comercial %28Precios y%2Fo Paquetes%29 SPBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Componentes o Productos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Componentes o Productos React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Componentes o Productos Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Componentes o Productos incorrectos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Componentes o Productos incorrectos BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Componentes o Productos incorrectos CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Componentes o Productos skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Conectividad wifi ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Configuracion de terminal celular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Configuración React 79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Configuración Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Configuración de equipo ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Confirmación de registro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta de calificaciones C%2E Comerciales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta de calificaciones C%2E Sistemas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta de calificaciones C%2E Técnicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta de cobertura red BTCel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta de estatus de Ditribución</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta de serviciabilidad Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta de serviciabilidad SPBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta estatus NIG%2FRecuperador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta estatus NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Consulta estatus o atributos de NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Contacto Call Back React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Contacto Call Back Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Contraseña HEAT Citrix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Contraseña HEAT Extranet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Contrato TMK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Contrato no migró a Siebel Hi Jump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Contratos no reflejados en sistema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Corrección de OT%2FSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Corrección de correo electrónico DI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Corta al digitar cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Corta al estar en espera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Credenciales Página btinalambrico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Credenciales portal serviciabilidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cuelga al inicio de llamada o solicitar datos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Cuenta activa con estatus rechazado en SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Código seguridad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_DRM no activo ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Descarga de App SQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Divisor o LNB incompatible ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_DocuSign no permite anexar documentos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_DocuSign no permite firmar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda Operativa Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda Operativa OSFC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda Operativa SCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda Prospección BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda Uso Página btinalambrico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda Uso portal serviciabilidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda creación de cuadrilla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda de validación de contratos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda de validación de documentación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda en activación BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda en activación BTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda en activación video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda en captura BTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda en captura Video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda en pasos portabilidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda en procesos alternos Cancelar Reagendar Cerrar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda en ubicacion de contenido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda facturación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda para generar SQC HD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda para generar SQC SD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda para uso de SKY MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda pasos SS React en Heat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda pasos SS React en SKY Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda pasos SS Trad79 en Heat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Duda pasos SS Trad79 en SKY Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Dudas en sistema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Encuesta completa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Entra llamada sin audio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Entrega de Clave de Acceso Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Entrega de Clave de Acceso OFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Entrega de Clave de Acceso SCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Entrega de claves de acceso HEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Entrega de claves de acceso SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Equipo secundario ultra sin imagen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Equipo%2Fs no visibles en Sistema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Equipo%2Fs no visibles en Sistema BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Equipo%2Fs no visibles en Sistema CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error 5to equipo disp movil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error de Acceso Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error de Acceso OFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error de Acceso SCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error de Acceso SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error de acceso SKY Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en acceso %28pantalla azul%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en cierre de SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en cierre de SS BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en cierre de SS Heat React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en cierre de SS Heat Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en cierre de SS SKY Mobile React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en cierre de SS SKY Mobile Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en pantalla React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Error en pantalla Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Estatus de Liberación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Estatus de contrato BTCel incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Estatus de contrato BTI incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Estatus de equipos BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Estatus de equipos BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Estatus de equipos video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Estatus trámite SEC y HEAT prospecto DI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Evaluación Pre NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Evita Carrusel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla SGC Refrendo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla con verificador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla de comunicación equipo secundario ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en HEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en HEAT con afectación a cuenta con BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en HEAT con afectación a cuenta con Modem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en HEAT con afectación a cuenta video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en SEC con afectación a cuenta CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en SEC con afectación a cuenta con Modem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en SEC con afectación a cuenta video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en SKY MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en SKY MB con afectación a cuenta CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en SKY MB con afectación a cuenta con Modem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en SKY MB con afectación a cuenta video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en Sistema Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en Sistema OFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Falla en Sistema SCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Filtros especiales MDU ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Formato Constancia de Recuperación de Equipos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Formato Listado de Equipos Recuperados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Fuera de periodo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_IRD con estatus incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_IRD con estatus incorrecto BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_IRD con estatus incorrecto CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_IVR Blue Telecomm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_IVR Servicio a Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Incidencia en Edicom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Incidencia en usuario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Incluir en lista de comunicados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Incompatibilidad MH01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Incompatibilidad de equipo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Incompatibilidad equipos skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Incompatiblidad versión Android</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Información para activar señal de CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Información sobre registro o fechas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Inscripción capacitación comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Inscripción capacitación de sistemas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Inscripción capacitación técnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Instalacion fisica skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Instalación física</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Instalación física React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Instalación física Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Instalación y configuración Satélite 58</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Instalación y configuración Satélite 79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Jerarquías</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Led Rojo Módem Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Led Rojo Módem SPBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Liga rota  no se confirma mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Lista de espera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Llamada de Prueba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Llamada de servicio completada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Mensaje de error en pantalla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Mensaje de error en pantalla skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Mensaje en pantalla ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Mensaje%3A Equipo inválido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Mesa Reparaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Mesa Seguimiento Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Migración con aprovisionamiento de paquete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Migración con aprovisionamiento de paquete React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Migración con aprovisionamiento de paquete Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Migración con incompatibilidad de equipos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Migración con incompatibilidad de equipos React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Migración con incompatibilidad de equipos Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Módem sin Señal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Módem sin Señal Combos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_NIT mal generado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_NIV mal generado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No acepta password vigente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No asistió a sesión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No califica para refrendo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No contesta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No corresponde a Atajo se transfiere a CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No corresponde a CT se transfiere a inicio IVR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No corresponde a CT y no se transfiere</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No enlaza %28sin audio%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No enlaza atención a técnicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No genera OM de activacion en crecimiento CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No genera OM de activación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No hace reenvío de señal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No muestra código de solución</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No muestra código de solución BTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No muestra código de solución Heat React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No muestra código de solución Heat Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No muestra código de solución SKY Mobile React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No muestra código de solución SKY Mobile Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No muestra código%2FInventario de Solución</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No muestra mail BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No permite editar mail BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Número equivocado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Deleted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Deleted BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Deleted CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Error de Envío</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Error de Envío BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Error de Envío CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM In Progress BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM In Progress CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Open BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OM Open CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OT o SS no reflejados en Sistema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_OT%2FSS no asignada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Otro IVR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Pago no aplicado BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Pago no aplicado BTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Pago no aplicado Video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Persona cuelga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Portabilidad no aplicada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Precios de Programación%2C PPV%2C Canales a la Carta o Temporadas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Precios y Politicas de contratacion skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Precios y Políticas de contratación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Precios y Políticas de contratación React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Precios y Políticas de migracion Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Problema HDCP ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Problema al inscribirse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Problemas con grabaciones o librerías ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Problemas de acceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Programacion LineUp skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Programación congelada o bloqueada ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Promociones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Promociones skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Reactivación de NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Reemplazos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Reenvío de contrato DocuSign a mail diferente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Reenvío de correo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Registro de DI Perfil Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Registro de IMEI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Registro de NIT Perfil Técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Relacionados con claves padre de reparadores _02 y _03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Requiere se le proporcione SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Reseteo de Contraseña</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Reseteo de Evaluación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Retroalimentación realizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_SEC no reconoce Sobre cerrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_SEC no reconoce contrato firmado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_SIM Cel Dañada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_SS no asignada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Se agenda cita con el técnico para pruebas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Se proporciona télefono de Blue Telecomm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Se proporciona télefono de Servicio a BTCel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Se proporciona télefono de Servicio a Clientes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Se proporciona télefono de Servicio a Clientes VeTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Seguimiento de estatus de SS%2FOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin acceso a perfil Técnico o Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin barras de señal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin botón continuar 58</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin botón continuar 79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin botón continuar React 79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin botón continuar Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin botón continuar skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin botón finalizar ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin correo electrónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin disposición para realizar pruebas E80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin disposición para realizar pruebas ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin recarga reflejada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin recarga reflejada BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin recarga reflejada CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sin sesiones disponibles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Sistemas que no son de sky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Software de principal ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Software incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Software incorrecto skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de Acceso Distribuidor%2FMaster</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de Acceso Ejecutivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de Acceso Técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de Acceso Técnico%2FVendedor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de Acceso Vendedor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de NIT no activo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de NIV no activo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de cambio de estatus NIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de cambio de estatus NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de contraseña CAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de contraseñaa SQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solicitud de información</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Solo pide información RyC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Suspensión de NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Suspensión de NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Terminal Celular no compatible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Tiempo alto de espera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Tipos de cuenta o Bandera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Titular no permite llamada de servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Tono Ocupado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Transferencia de saldo CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Trasferencia de Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Técnico no se encuentra en el domicilio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Técnico no se encuentra en el domicilio E80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Técnico no se encuentra en el domicilio ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Técnico o DI No disponible</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Técnico o DI No se encuentra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Técnico o DI no permite retro o encuesta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Técnico pide información de cuenta o cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Ubicacion de contenido React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Ubicacion de contenido Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Validación de consignación de equipos BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Validación de consignación de equipos BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Validación de consignación de equipos video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Validar Folio de Confirmación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Validar Mensaje de Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Verificar permisos de envío de solicitud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Versión Alojada de sw para secundarios ultra</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Tipo_de_contacto__c</picklist>
+        <values>
+            <fullName>Inbound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Outbound</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>LXD_Alta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>LXD_Completo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_En_espera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_En_proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_No_iniciado</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>LXD_Llamada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Tarea</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__EventStatus__c</picklist>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Started</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Shared</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

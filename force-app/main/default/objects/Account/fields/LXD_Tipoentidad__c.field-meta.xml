@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Tipoentidad__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipo de entidad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Master</fullName>
+                <default>false</default>
+                <label>Master</label>
+            </value>
+            <value>
+                <fullName>Distribuidor</fullName>
+                <default>false</default>
+                <label>Distribuidor</label>
+            </value>
+            <value>
+                <fullName>Reparadores</fullName>
+                <default>false</default>
+                <label>Reparadores</label>
+            </value>
+            <value>
+                <fullName>Instaladores externos</fullName>
+                <default>false</default>
+                <label>Instaladores externos</label>
+            </value>
+            <value>
+                <fullName>Call center externo</fullName>
+                <default>false</default>
+                <label>Call center externo</label>
+            </value>
+            <value>
+                <fullName>Despacho recuperación</fullName>
+                <default>false</default>
+                <label>Despacho recuperación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

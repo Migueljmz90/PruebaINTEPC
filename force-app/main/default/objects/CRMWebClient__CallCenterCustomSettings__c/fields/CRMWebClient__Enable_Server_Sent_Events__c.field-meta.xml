@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__Enable_Server_Sent_Events__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to enable Server-sent Events with PureConnect 2016 R3 or later. May require configuration changes to the Web Proxy.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to enable Server-sent Events with PureConnect 2016 R3 or later. May require configuration changes to the Web Proxy.</inlineHelpText>
+    <label>Enable Server-sent Events</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,21 @@
+<template>
+    <!-- <lightning-input-address
+        address-label="Dirección"
+        street-label="Calle"
+        city-label="Ciudad"
+        country={country}
+        country-label="País"
+        province-label="Estado"
+        postal-code-label="Código Postal"
+        required
+        onchange={genericInputChange}
+        show-address-lookup
+    >
+    </lightning-input-address> -->
+
+    <lightning-input label="Calle" name="street" value={streetName} onchange={handlechangestreetName}></lightning-input>
+    <lightning-input label="Ciudad" name="city" value={cityName} onchange={handlechangecityName}></lightning-input>
+    <lightning-input label="Provincia/Estado" name="province" value={stateName} onchange={handlechangestateName}></lightning-input>
+    <lightning-input label="Codigo Postal" name="postalCode" value={postalName}></lightning-input>
+    <lightning-input label="País" disabled="true" name="country" value={countryName} onchange={handlechangepostalName}></lightning-input>
+</template>

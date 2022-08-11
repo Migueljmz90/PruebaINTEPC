@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__cic4sf_exiting_status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The status to listen to on PureConnect for Salesforce (upon exiting) that will trigger a status change on Omni-Channel.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The status to listen to on PureConnect for Salesforce (upon exiting) that will trigger a status change on Omni-Channel.</inlineHelpText>
+    <label>PureConnect Exiting Status</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

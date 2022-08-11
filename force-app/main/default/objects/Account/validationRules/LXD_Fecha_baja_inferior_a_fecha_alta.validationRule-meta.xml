@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Fecha_baja_inferior_a_fecha_alta</fullName>
+    <active>true</active>
+    <errorConditionFormula>LXD_Fecha_de_baja__c &lt; LXD_Fecha_de_alta__c</errorConditionFormula>
+    <errorMessage>No se puede seleccionar una fecha de baja inferior a la fecha de alta de la cuenta.</errorMessage>
+</ValidationRule>

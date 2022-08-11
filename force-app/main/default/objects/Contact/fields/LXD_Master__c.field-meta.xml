@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Master__c</fullName>
+    <externalId>false</externalId>
+    <label>Master</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Revisor</fullName>
+                <default>false</default>
+                <label>Revisor</label>
+            </value>
+            <value>
+                <fullName>Autorizador</fullName>
+                <default>false</default>
+                <label>Autorizador</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

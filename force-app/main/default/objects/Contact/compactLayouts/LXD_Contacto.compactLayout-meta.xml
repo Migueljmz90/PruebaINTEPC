@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Contacto</fullName>
+    <fields>Name</fields>
+    <fields>Phone</fields>
+    <fields>LXD_Telefono_Celular__c</fields>
+    <fields>LXD_Telefono_Recados__c</fields>
+    <fields>Email</fields>
+    <fields>OwnerId</fields>
+    <label>LXD_Contacto</label>
+</CompactLayout>

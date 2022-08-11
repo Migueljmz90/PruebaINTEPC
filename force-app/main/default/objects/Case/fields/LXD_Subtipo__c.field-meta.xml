@@ -1,0 +1,2394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Subtipo__c</fullName>
+    <externalId>false</externalId>
+    <label>Subtipo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Altas de claves padres de reciente creación</fullName>
+                <default>false</default>
+                <label>Altas de claves padres de reciente creación</label>
+            </value>
+            <value>
+                <fullName>Asignación de claves padre 07 a claves de master 01</fullName>
+                <default>false</default>
+                <label>Asignación de claves padre 07 a claves de master 01</label>
+            </value>
+            <value>
+                <fullName>Aclaración de Activaciones</fullName>
+                <default>false</default>
+                <label>Aclaración de Activaciones</label>
+            </value>
+            <value>
+                <fullName>Creación de clave padre 07/035</fullName>
+                <default>false</default>
+                <label>Creación de clave padre 07/035</label>
+            </value>
+            <value>
+                <fullName>Estatus de Distribución</fullName>
+                <default>false</default>
+                <label>Estatus de Distribución</label>
+            </value>
+            <value>
+                <fullName>NIT Suspendido por adeudo en cuenta Sky</fullName>
+                <default>false</default>
+                <label>NIT Suspendido por adeudo en cuenta Sky</label>
+            </value>
+            <value>
+                <fullName>Seguimiento Boletín</fullName>
+                <default>false</default>
+                <label>Seguimiento Boletín</label>
+            </value>
+            <value>
+                <fullName>Seguimiento de prospecto a DI</fullName>
+                <default>false</default>
+                <label>Seguimiento de prospecto a DI</label>
+            </value>
+            <value>
+                <fullName>Activación de Módem SPBT</fullName>
+                <default>false</default>
+                <label>Activación de Módem SPBT</label>
+            </value>
+            <value>
+                <fullName>Comercial (Precios y/o Paquetes) SPBT</fullName>
+                <default>false</default>
+                <label>Comercial (Precios y/o Paquetes) SPBT</label>
+            </value>
+            <value>
+                <fullName>Módem sin Señal</fullName>
+                <default>false</default>
+                <label>Módem sin Señal</label>
+            </value>
+            <value>
+                <fullName>Transferencia de Saldo</fullName>
+                <default>false</default>
+                <label>Transferencia de Saldo</label>
+            </value>
+            <value>
+                <fullName>Duda Prospección</fullName>
+                <default>false</default>
+                <label>Duda Prospección</label>
+            </value>
+            <value>
+                <fullName>Activación de Módem Combo</fullName>
+                <default>false</default>
+                <label>Activación de Módem Combo</label>
+            </value>
+            <value>
+                <fullName>Comercial (Precios y/o Paquetes) Combo</fullName>
+                <default>false</default>
+                <label>Comercial (Precios y/o Paquetes) Combo</label>
+            </value>
+            <value>
+                <fullName>Módem sin Señal Combos</fullName>
+                <default>false</default>
+                <label>Módem sin Señal Combos</label>
+            </value>
+            <value>
+                <fullName>Duda Operativa Callidus</fullName>
+                <default>false</default>
+                <label>Duda Operativa Callidus</label>
+            </value>
+            <value>
+                <fullName>Error de Acceso Callidus</fullName>
+                <default>false</default>
+                <label>Error de Acceso Callidus</label>
+            </value>
+            <value>
+                <fullName>Falla en Sistema Callidus</fullName>
+                <default>false</default>
+                <label>Falla en Sistema Callidus</label>
+            </value>
+            <value>
+                <fullName>OT o SS no reflejados en Sistema</fullName>
+                <default>false</default>
+                <label>OT o SS no reflejados en Sistema</label>
+            </value>
+            <value>
+                <fullName>Canalización con Soporte Administrativo</fullName>
+                <default>false</default>
+                <label>Canalización con Soporte Administrativo</label>
+            </value>
+            <value>
+                <fullName>Problemas de acceso</fullName>
+                <default>false</default>
+                <label>Problemas de acceso</label>
+            </value>
+            <value>
+                <fullName>Solicitud de contraseña CAS</fullName>
+                <default>false</default>
+                <label>Solicitud de contraseña CAS</label>
+            </value>
+            <value>
+                <fullName>Validar Folio de Confirmación</fullName>
+                <default>false</default>
+                <label>Validar Folio de Confirmación</label>
+            </value>
+            <value>
+                <fullName>Validar Mensaje de Error</fullName>
+                <default>false</default>
+                <label>Validar Mensaje de Error</label>
+            </value>
+            <value>
+                <fullName>Verificar permisos de envío de solicitud</fullName>
+                <default>false</default>
+                <label>Verificar permisos de envío de solicitud</label>
+            </value>
+            <value>
+                <fullName>Aclaración de Evaluación/Calificación</fullName>
+                <default>false</default>
+                <label>Aclaración de Evaluación/Calificación</label>
+            </value>
+            <value>
+                <fullName>Instructor no ha reportado Curso</fullName>
+                <default>false</default>
+                <label>Instructor no ha reportado Curso</label>
+            </value>
+            <value>
+                <fullName>Participante no aparece en reporte</fullName>
+                <default>false</default>
+                <label>Participante no aparece en reporte</label>
+            </value>
+            <value>
+                <fullName>Reseteo de Evaluación</fullName>
+                <default>false</default>
+                <label>Reseteo de Evaluación</label>
+            </value>
+            <value>
+                <fullName>Estatus de equipos recuperados</fullName>
+                <default>false</default>
+                <label>Estatus de equipos recuperados</label>
+            </value>
+            <value>
+                <fullName>Operaciones de Despacho</fullName>
+                <default>false</default>
+                <label>Operaciones de Despacho</label>
+            </value>
+            <value>
+                <fullName>Precios de Programación, PPV, Canales a la Carta o Temporadas</fullName>
+                <default>false</default>
+                <label>Precios de Programación, PPV, Canales a la Carta o Temporadas</label>
+            </value>
+            <value>
+                <fullName>Precios y Políticas de contratación</fullName>
+                <default>false</default>
+                <label>Precios y Políticas de contratación</label>
+            </value>
+            <value>
+                <fullName>Promociones</fullName>
+                <default>false</default>
+                <label>Promociones</label>
+            </value>
+            <value>
+                <fullName>Tipos de cuenta o Bandera</fullName>
+                <default>false</default>
+                <label>Tipos de cuenta o Bandera</label>
+            </value>
+            <value>
+                <fullName>Carga de Software</fullName>
+                <default>false</default>
+                <label>Carga de Software</label>
+            </value>
+            <value>
+                <fullName>Componentes o Productos</fullName>
+                <default>false</default>
+                <label>Componentes o Productos</label>
+            </value>
+            <value>
+                <fullName>Instalación física</fullName>
+                <default>false</default>
+                <label>Instalación física</label>
+            </value>
+            <value>
+                <fullName>Instalación y configuración Satélite 58</fullName>
+                <default>false</default>
+                <label>Instalación y configuración Satélite 58</label>
+            </value>
+            <value>
+                <fullName>Instalación y configuración Satélite 79</fullName>
+                <default>false</default>
+                <label>Instalación y configuración Satélite 79</label>
+            </value>
+            <value>
+                <fullName>Mensaje de error en pantalla</fullName>
+                <default>false</default>
+                <label>Mensaje de error en pantalla</label>
+            </value>
+            <value>
+                <fullName>Migración con incompatibilidad de equipos</fullName>
+                <default>false</default>
+                <label>Migración con incompatibilidad de equipos</label>
+            </value>
+            <value>
+                <fullName>Dudas de sistema Edicom</fullName>
+                <default>false</default>
+                <label>Dudas de sistema Edicom</label>
+            </value>
+            <value>
+                <fullName>Envío de Facturas por Edicom</fullName>
+                <default>false</default>
+                <label>Envío de Facturas por Edicom</label>
+            </value>
+            <value>
+                <fullName>Incidencia en Edicom</fullName>
+                <default>false</default>
+                <label>Incidencia en Edicom</label>
+            </value>
+            <value>
+                <fullName>Solicitud de acceso Edicom</fullName>
+                <default>false</default>
+                <label>Solicitud de acceso Edicom</label>
+            </value>
+            <value>
+                <fullName>Bloqueo de puente de pareo</fullName>
+                <default>false</default>
+                <label>Bloqueo de puente de pareo</label>
+            </value>
+            <value>
+                <fullName>Cableado E80</fullName>
+                <default>false</default>
+                <label>Cableado E80</label>
+            </value>
+            <value>
+                <fullName>Incompatibilidad MH01</fullName>
+                <default>false</default>
+                <label>Incompatibilidad MH01</label>
+            </value>
+            <value>
+                <fullName>Jerarquías</fullName>
+                <default>false</default>
+                <label>Jerarquías</label>
+            </value>
+            <value>
+                <fullName>Se agenda cita con el técnico para pruebas</fullName>
+                <default>false</default>
+                <label>Se agenda cita con el técnico para pruebas</label>
+            </value>
+            <value>
+                <fullName>Sin disposición para realizar pruebas E80</fullName>
+                <default>false</default>
+                <label>Sin disposición para realizar pruebas E80</label>
+            </value>
+            <value>
+                <fullName>Software incorrecto</fullName>
+                <default>false</default>
+                <label>Software incorrecto</label>
+            </value>
+            <value>
+                <fullName>Técnico no se encuentra en el domicilio E80</fullName>
+                <default>false</default>
+                <label>Técnico no se encuentra en el domicilio E80</label>
+            </value>
+            <value>
+                <fullName>Atención a Técnicos</fullName>
+                <default>false</default>
+                <label>Atención a Técnicos</label>
+            </value>
+            <value>
+                <fullName>Blue Telecomm</fullName>
+                <default>false</default>
+                <label>Blue Telecomm</label>
+            </value>
+            <value>
+                <fullName>Corta al digitar cuenta</fullName>
+                <default>false</default>
+                <label>Corta al digitar cuenta</label>
+            </value>
+            <value>
+                <fullName>Evita Carrusel</fullName>
+                <default>false</default>
+                <label>Evita Carrusel</label>
+            </value>
+            <value>
+                <fullName>No acepta password vigente</fullName>
+                <default>false</default>
+                <label>No acepta password vigente</label>
+            </value>
+            <value>
+                <fullName>No hace reenvío de señal</fullName>
+                <default>false</default>
+                <label>No hace reenvío de señal</label>
+            </value>
+            <value>
+                <fullName>Servicio a BTCel</fullName>
+                <default>false</default>
+                <label>Servicio a BTCel</label>
+            </value>
+            <value>
+                <fullName>Servicio a Clientes</fullName>
+                <default>false</default>
+                <label>Servicio a Clientes</label>
+            </value>
+            <value>
+                <fullName>Servicio a Clientes VeTV</fullName>
+                <default>false</default>
+                <label>Servicio a Clientes VeTV</label>
+            </value>
+            <value>
+                <fullName>Asociación de DI con clave padre</fullName>
+                <default>false</default>
+                <label>Asociación de DI con clave padre</label>
+            </value>
+            <value>
+                <fullName>Incidencia en SAP</fullName>
+                <default>false</default>
+                <label>Incidencia en SAP</label>
+            </value>
+            <value>
+                <fullName>Contraseña HEAT Citrix</fullName>
+                <default>false</default>
+                <label>Contraseña HEAT Citrix</label>
+            </value>
+            <value>
+                <fullName>Contraseña HEAT Extranet</fullName>
+                <default>false</default>
+                <label>Contraseña HEAT Extranet</label>
+            </value>
+            <value>
+                <fullName>Entrega de claves de acceso HEAT</fullName>
+                <default>false</default>
+                <label>Entrega de claves de acceso HEAT</label>
+            </value>
+            <value>
+                <fullName>Error en acceso (pantalla azul)</fullName>
+                <default>false</default>
+                <label>Error en acceso (pantalla azul)</label>
+            </value>
+            <value>
+                <fullName>Error en cierre de SS</fullName>
+                <default>false</default>
+                <label>Error en cierre de SS</label>
+            </value>
+            <value>
+                <fullName>Error en cierre de SS BT</fullName>
+                <default>false</default>
+                <label>Error en cierre de SS BT</label>
+            </value>
+            <value>
+                <fullName>Falla en HEAT</fullName>
+                <default>false</default>
+                <label>Falla en HEAT</label>
+            </value>
+            <value>
+                <fullName>Falla en HEAT con afectación a cuenta con BTCEL</fullName>
+                <default>false</default>
+                <label>Falla en HEAT con afectación a cuenta con BTCEL</label>
+            </value>
+            <value>
+                <fullName>Falla en HEAT con afectación a cuenta con Modem</fullName>
+                <default>false</default>
+                <label>Falla en HEAT con afectación a cuenta con Modem</label>
+            </value>
+            <value>
+                <fullName>Falla en HEAT con afectación a cuenta video</fullName>
+                <default>false</default>
+                <label>Falla en HEAT con afectación a cuenta video</label>
+            </value>
+            <value>
+                <fullName>No muestra código de solución</fullName>
+                <default>false</default>
+                <label>No muestra código de solución</label>
+            </value>
+            <value>
+                <fullName>No muestra código de solución BTI</fullName>
+                <default>false</default>
+                <label>No muestra código de solución BTI</label>
+            </value>
+            <value>
+                <fullName>Componentes o Productos incorrectos</fullName>
+                <default>false</default>
+                <label>Componentes o Productos incorrectos</label>
+            </value>
+            <value>
+                <fullName>Componentes o Productos incorrectos BT</fullName>
+                <default>false</default>
+                <label>Componentes o Productos incorrectos BT</label>
+            </value>
+            <value>
+                <fullName>Componentes o Productos incorrectos CEL</fullName>
+                <default>false</default>
+                <label>Componentes o Productos incorrectos CEL</label>
+            </value>
+            <value>
+                <fullName>Equipo/s no visibles en Sistema</fullName>
+                <default>false</default>
+                <label>Equipo/s no visibles en Sistema</label>
+            </value>
+            <value>
+                <fullName>Equipo/s no visibles en Sistema BT</fullName>
+                <default>false</default>
+                <label>Equipo/s no visibles en Sistema BT</label>
+            </value>
+            <value>
+                <fullName>Equipo/s no visibles en Sistema CEL</fullName>
+                <default>false</default>
+                <label>Equipo/s no visibles en Sistema CEL</label>
+            </value>
+            <value>
+                <fullName>IRD con estatus incorrecto</fullName>
+                <default>false</default>
+                <label>IRD con estatus incorrecto</label>
+            </value>
+            <value>
+                <fullName>IRD con estatus incorrecto BT</fullName>
+                <default>false</default>
+                <label>IRD con estatus incorrecto BT</label>
+            </value>
+            <value>
+                <fullName>IRD con estatus incorrecto CEL</fullName>
+                <default>false</default>
+                <label>IRD con estatus incorrecto CEL</label>
+            </value>
+            <value>
+                <fullName>OM Deleted</fullName>
+                <default>false</default>
+                <label>OM Deleted</label>
+            </value>
+            <value>
+                <fullName>OM Deleted BT</fullName>
+                <default>false</default>
+                <label>OM Deleted BT</label>
+            </value>
+            <value>
+                <fullName>OM Deleted CEL</fullName>
+                <default>false</default>
+                <label>OM Deleted CEL</label>
+            </value>
+            <value>
+                <fullName>OM Error de Envío</fullName>
+                <default>false</default>
+                <label>OM Error de Envío</label>
+            </value>
+            <value>
+                <fullName>OM Error de Envío BT</fullName>
+                <default>false</default>
+                <label>OM Error de Envío BT</label>
+            </value>
+            <value>
+                <fullName>OM Error de Envío CEL</fullName>
+                <default>false</default>
+                <label>OM Error de Envío CEL</label>
+            </value>
+            <value>
+                <fullName>OM In Progress</fullName>
+                <default>false</default>
+                <label>OM In Progress</label>
+            </value>
+            <value>
+                <fullName>OM In Progress BT</fullName>
+                <default>false</default>
+                <label>OM In Progress BT</label>
+            </value>
+            <value>
+                <fullName>OM In Progress CEL</fullName>
+                <default>false</default>
+                <label>OM In Progress CEL</label>
+            </value>
+            <value>
+                <fullName>OM Open</fullName>
+                <default>false</default>
+                <label>OM Open</label>
+            </value>
+            <value>
+                <fullName>OM Open BT</fullName>
+                <default>false</default>
+                <label>OM Open BT</label>
+            </value>
+            <value>
+                <fullName>OM Open CEL</fullName>
+                <default>false</default>
+                <label>OM Open CEL</label>
+            </value>
+            <value>
+                <fullName>Sin recarga reflejada</fullName>
+                <default>false</default>
+                <label>Sin recarga reflejada</label>
+            </value>
+            <value>
+                <fullName>Sin recarga reflejada BT</fullName>
+                <default>false</default>
+                <label>Sin recarga reflejada BT</label>
+            </value>
+            <value>
+                <fullName>Sin recarga reflejada CEL</fullName>
+                <default>false</default>
+                <label>Sin recarga reflejada CEL</label>
+            </value>
+            <value>
+                <fullName>Estatus de equipos BT</fullName>
+                <default>false</default>
+                <label>Estatus de equipos BT</label>
+            </value>
+            <value>
+                <fullName>Estatus de equipos BTCEL</fullName>
+                <default>false</default>
+                <label>Estatus de equipos BTCEL</label>
+            </value>
+            <value>
+                <fullName>Estatus de equipos video</fullName>
+                <default>false</default>
+                <label>Estatus de equipos video</label>
+            </value>
+            <value>
+                <fullName>Validación de consignación de equipos BT</fullName>
+                <default>false</default>
+                <label>Validación de consignación de equipos BT</label>
+            </value>
+            <value>
+                <fullName>Validación de consignación de equipos BTCEL</fullName>
+                <default>false</default>
+                <label>Validación de consignación de equipos BTCEL</label>
+            </value>
+            <value>
+                <fullName>Validación de consignación de equipos video</fullName>
+                <default>false</default>
+                <label>Validación de consignación de equipos video</label>
+            </value>
+            <value>
+                <fullName>OT/SS no asignada</fullName>
+                <default>false</default>
+                <label>OT/SS no asignada</label>
+            </value>
+            <value>
+                <fullName>Relacionados con claves padre de reparadores _02 y _03</fullName>
+                <default>false</default>
+                <label>Relacionados con claves padre de reparadores _02 y _03</label>
+            </value>
+            <value>
+                <fullName>Seguimiento de estatus de SS/OT</fullName>
+                <default>false</default>
+                <label>Seguimiento de estatus de SS/OT</label>
+            </value>
+            <value>
+                <fullName>Duda de validación de contratos</fullName>
+                <default>false</default>
+                <label>Duda de validación de contratos</label>
+            </value>
+            <value>
+                <fullName>Duda de validación de documentación</fullName>
+                <default>false</default>
+                <label>Duda de validación de documentación</label>
+            </value>
+            <value>
+                <fullName>Componente Training</fullName>
+                <default>false</default>
+                <label>Componente Training</label>
+            </value>
+            <value>
+                <fullName>Incluir en lista de comunicados</fullName>
+                <default>false</default>
+                <label>Incluir en lista de comunicados</label>
+            </value>
+            <value>
+                <fullName>Información para activar señal de CT</fullName>
+                <default>false</default>
+                <label>Información para activar señal de CT</label>
+            </value>
+            <value>
+                <fullName>Acceso al portal de saldos</fullName>
+                <default>false</default>
+                <label>Acceso al portal de saldos</label>
+            </value>
+            <value>
+                <fullName>Alta NIG</fullName>
+                <default>false</default>
+                <label>Alta NIG</label>
+            </value>
+            <value>
+                <fullName>Baja NIG</fullName>
+                <default>false</default>
+                <label>Baja NIG</label>
+            </value>
+            <value>
+                <fullName>Boletinado NIG</fullName>
+                <default>false</default>
+                <label>Boletinado NIG</label>
+            </value>
+            <value>
+                <fullName>Consulta estatus NIG</fullName>
+                <default>false</default>
+                <label>Consulta estatus NIG</label>
+            </value>
+            <value>
+                <fullName>Consulta estatus Recuperador</fullName>
+                <default>false</default>
+                <label>Consulta estatus Recuperador</label>
+            </value>
+            <value>
+                <fullName>Suspensión NIG</fullName>
+                <default>false</default>
+                <label>Suspensión NIG</label>
+            </value>
+            <value>
+                <fullName>Alta NIT</fullName>
+                <default>false</default>
+                <label>Alta NIT</label>
+            </value>
+            <value>
+                <fullName>Baja NIT</fullName>
+                <default>false</default>
+                <label>Baja NIT</label>
+            </value>
+            <value>
+                <fullName>Boletinado NIT</fullName>
+                <default>false</default>
+                <label>Boletinado NIT</label>
+            </value>
+            <value>
+                <fullName>Consulta estatus NIT</fullName>
+                <default>false</default>
+                <label>Consulta estatus NIT</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Liberación de Técnico</fullName>
+                <default>false</default>
+                <label>Solicitud de Liberación de Técnico</label>
+            </value>
+            <value>
+                <fullName>Suspensión NIT</fullName>
+                <default>false</default>
+                <label>Suspensión NIT</label>
+            </value>
+            <value>
+                <fullName>Alta NIV</fullName>
+                <default>false</default>
+                <label>Alta NIV</label>
+            </value>
+            <value>
+                <fullName>Baja NIV</fullName>
+                <default>false</default>
+                <label>Baja NIV</label>
+            </value>
+            <value>
+                <fullName>Boletinado NIV</fullName>
+                <default>false</default>
+                <label>Boletinado NIV</label>
+            </value>
+            <value>
+                <fullName>Consulta estatus NIV</fullName>
+                <default>false</default>
+                <label>Consulta estatus NIV</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Liberación de Vendedor</fullName>
+                <default>false</default>
+                <label>Solicitud de Liberación de Vendedor</label>
+            </value>
+            <value>
+                <fullName>Suspensión NIV</fullName>
+                <default>false</default>
+                <label>Suspensión NIV</label>
+            </value>
+            <value>
+                <fullName>Error de Acceso OFSC</fullName>
+                <default>false</default>
+                <label>Error de Acceso OFSC</label>
+            </value>
+            <value>
+                <fullName>Falla en Sistema OFSC</fullName>
+                <default>false</default>
+                <label>Falla en Sistema OFSC</label>
+            </value>
+            <value>
+                <fullName>No muestra código/Inventario de Solución</fullName>
+                <default>false</default>
+                <label>No muestra código/Inventario de Solución</label>
+            </value>
+            <value>
+                <fullName>Contratos no reflejados en sistema</fullName>
+                <default>false</default>
+                <label>Contratos no reflejados en sistema</label>
+            </value>
+            <value>
+                <fullName>Duda Operativa SCV</fullName>
+                <default>false</default>
+                <label>Duda Operativa SCV</label>
+            </value>
+            <value>
+                <fullName>Error de Acceso SCV</fullName>
+                <default>false</default>
+                <label>Error de Acceso SCV</label>
+            </value>
+            <value>
+                <fullName>Falla en Sistema SCV</fullName>
+                <default>false</default>
+                <label>Falla en Sistema SCV</label>
+            </value>
+            <value>
+                <fullName>Contrato no migró a Siebel Hi Jump</fullName>
+                <default>false</default>
+                <label>Contrato no migró a Siebel Hi Jump</label>
+            </value>
+            <value>
+                <fullName>Cuenta activa con estatus rechazado en SEC</fullName>
+                <default>false</default>
+                <label>Cuenta activa con estatus rechazado en SEC</label>
+            </value>
+            <value>
+                <fullName>Duda en activación</fullName>
+                <default>false</default>
+                <label>Duda en activación</label>
+            </value>
+            <value>
+                <fullName>Duda en captura</fullName>
+                <default>false</default>
+                <label>Duda en captura</label>
+            </value>
+            <value>
+                <fullName>Error de Acceso SEC</fullName>
+                <default>false</default>
+                <label>Error de Acceso SEC</label>
+            </value>
+            <value>
+                <fullName>Falla en SEC</fullName>
+                <default>false</default>
+                <label>Falla en SEC</label>
+            </value>
+            <value>
+                <fullName>Falla en SEC con afectación a cuenta CEL</fullName>
+                <default>false</default>
+                <label>Falla en SEC con afectación a cuenta CEL</label>
+            </value>
+            <value>
+                <fullName>Falla en SEC con afectación a cuenta con Modem</fullName>
+                <default>false</default>
+                <label>Falla en SEC con afectación a cuenta con Modem</label>
+            </value>
+            <value>
+                <fullName>Falla en SEC con afectación a cuenta video</fullName>
+                <default>false</default>
+                <label>Falla en SEC con afectación a cuenta video</label>
+            </value>
+            <value>
+                <fullName>No carga página SEC</fullName>
+                <default>false</default>
+                <label>No carga página SEC</label>
+            </value>
+            <value>
+                <fullName>No genera OM de activación</fullName>
+                <default>false</default>
+                <label>No genera OM de activación</label>
+            </value>
+            <value>
+                <fullName>Contrato TMK</fullName>
+                <default>false</default>
+                <label>Contrato TMK</label>
+            </value>
+            <value>
+                <fullName>SS no asignada</fullName>
+                <default>false</default>
+                <label>SS no asignada</label>
+            </value>
+            <value>
+                <fullName>SS no asignada BT</fullName>
+                <default>false</default>
+                <label>SS no asignada BT</label>
+            </value>
+            <value>
+                <fullName>Error de acceso SKY Mobile</fullName>
+                <default>false</default>
+                <label>Error de acceso SKY Mobile</label>
+            </value>
+            <value>
+                <fullName>Estatus de Liberación</fullName>
+                <default>false</default>
+                <label>Estatus de Liberación</label>
+            </value>
+            <value>
+                <fullName>Falla en SKY MB</fullName>
+                <default>false</default>
+                <label>Falla en SKY MB</label>
+            </value>
+            <value>
+                <fullName>Falla en SKY MB con afectación a cuenta CEL</fullName>
+                <default>false</default>
+                <label>Falla en SKY MB con afectación a cuenta CEL</label>
+            </value>
+            <value>
+                <fullName>Falla en SKY MB con afectación a cuenta con Modem</fullName>
+                <default>false</default>
+                <label>Falla en SKY MB con afectación a cuenta con Modem</label>
+            </value>
+            <value>
+                <fullName>Falla en SKY MB con afectación a cuenta video</fullName>
+                <default>false</default>
+                <label>Falla en SKY MB con afectación a cuenta video</label>
+            </value>
+            <value>
+                <fullName>Incidencia en OT con OFSC</fullName>
+                <default>false</default>
+                <label>Incidencia en OT con OFSC</label>
+            </value>
+            <value>
+                <fullName>Incompatibilidad de equipo</fullName>
+                <default>false</default>
+                <label>Incompatibilidad de equipo</label>
+            </value>
+            <value>
+                <fullName>Incompatiblidad versión Android</fullName>
+                <default>false</default>
+                <label>Incompatiblidad versión Android</label>
+            </value>
+            <value>
+                <fullName>Mensaje: Equipo inválido</fullName>
+                <default>false</default>
+                <label>Mensaje: Equipo inválido</label>
+            </value>
+            <value>
+                <fullName>Movimientos IMEI&apos;s</fullName>
+                <default>false</default>
+                <label>Movimientos IMEI&apos;s</label>
+            </value>
+            <value>
+                <fullName>Sin acceso a perfil Técnico o Comercial</fullName>
+                <default>false</default>
+                <label>Sin acceso a perfil Técnico o Comercial</label>
+            </value>
+            <value>
+                <fullName>Agregar perfil</fullName>
+                <default>false</default>
+                <label>Agregar perfil</label>
+            </value>
+            <value>
+                <fullName>Creación de usuario</fullName>
+                <default>false</default>
+                <label>Creación de usuario</label>
+            </value>
+            <value>
+                <fullName>Incidencia en usuario</fullName>
+                <default>false</default>
+                <label>Incidencia en usuario</label>
+            </value>
+            <value>
+                <fullName>Error en SQC</fullName>
+                <default>false</default>
+                <label>Error en SQC</label>
+            </value>
+            <value>
+                <fullName>Falla con verificador</fullName>
+                <default>false</default>
+                <label>Falla con verificador</label>
+            </value>
+            <value>
+                <fullName>Advanced setup secundario ultra</fullName>
+                <default>false</default>
+                <label>Advanced setup secundario ultra</label>
+            </value>
+            <value>
+                <fullName>Versión Alojada de sw para secundarios ultra</fullName>
+                <default>false</default>
+                <label>Versión Alojada de sw para secundarios ultra</label>
+            </value>
+            <value>
+                <fullName>Cableado coaxial ultra</fullName>
+                <default>false</default>
+                <label>Cableado coaxial ultra</label>
+            </value>
+            <value>
+                <fullName>Cableado HDMI ultra</fullName>
+                <default>false</default>
+                <label>Cableado HDMI ultra</label>
+            </value>
+            <value>
+                <fullName>Problema HDCP ultra</fullName>
+                <default>false</default>
+                <label>Problema HDCP ultra</label>
+            </value>
+            <value>
+                <fullName>Conectividad wifi ultra</fullName>
+                <default>false</default>
+                <label>Conectividad wifi ultra</label>
+            </value>
+            <value>
+                <fullName>Divisor o LNB incompatible ultra</fullName>
+                <default>false</default>
+                <label>Divisor o LNB incompatible ultra</label>
+            </value>
+            <value>
+                <fullName>DRM no activo ultra</fullName>
+                <default>false</default>
+                <label>DRM no activo ultra</label>
+            </value>
+            <value>
+                <fullName>Sin disposición para realizar pruebas ultra</fullName>
+                <default>false</default>
+                <label>Sin disposición para realizar pruebas ultra</label>
+            </value>
+            <value>
+                <fullName>Software de principal ultra</fullName>
+                <default>false</default>
+                <label>Software de principal ultra</label>
+            </value>
+            <value>
+                <fullName>Técnico no se encuentra en el domicilio ultra</fullName>
+                <default>false</default>
+                <label>Técnico no se encuentra en el domicilio ultra</label>
+            </value>
+            <value>
+                <fullName>Filtros especiales MDU ultra</fullName>
+                <default>false</default>
+                <label>Filtros especiales MDU ultra</label>
+            </value>
+            <value>
+                <fullName>Sin botón finalizar ultra</fullName>
+                <default>false</default>
+                <label>Sin botón finalizar ultra</label>
+            </value>
+            <value>
+                <fullName>Equipo secundario ultra sin imagen</fullName>
+                <default>false</default>
+                <label>Equipo secundario ultra sin imagen</label>
+            </value>
+            <value>
+                <fullName>Mensaje en pantalla ultra</fullName>
+                <default>false</default>
+                <label>Mensaje en pantalla ultra</label>
+            </value>
+            <value>
+                <fullName>Falla de comunicación equipo secundario ultra</fullName>
+                <default>false</default>
+                <label>Falla de comunicación equipo secundario ultra</label>
+            </value>
+            <value>
+                <fullName>Programación congelada o bloqueada ultra</fullName>
+                <default>false</default>
+                <label>Programación congelada o bloqueada ultra</label>
+            </value>
+            <value>
+                <fullName>Incidencia en sistemas no categorizados</fullName>
+                <default>false</default>
+                <label>Incidencia en sistemas no categorizados</label>
+            </value>
+            <value>
+                <fullName>Encolamiento de Solicitudes</fullName>
+                <default>false</default>
+                <label>Encolamiento de Solicitudes</label>
+            </value>
+            <value>
+                <fullName>Incidencia general</fullName>
+                <default>false</default>
+                <label>Incidencia general</label>
+            </value>
+            <value>
+                <fullName>Lentitud en sistemas</fullName>
+                <default>false</default>
+                <label>Lentitud en sistemas</label>
+            </value>
+            <value>
+                <fullName>No categorizada</fullName>
+                <default>false</default>
+                <label>No categorizada</label>
+            </value>
+            <value>
+                <fullName>Ventana de mantenimiento extendida</fullName>
+                <default>false</default>
+                <label>Ventana de mantenimiento extendida</label>
+            </value>
+            <value>
+                <fullName>Configuración de terminal celular</fullName>
+                <default>false</default>
+                <label>Configuración de terminal celular</label>
+            </value>
+            <value>
+                <fullName>Bolsas no disponibles</fullName>
+                <default>false</default>
+                <label>Bolsas no disponibles</label>
+            </value>
+            <value>
+                <fullName>Duda en pasos portabilidad</fullName>
+                <default>false</default>
+                <label>Duda en pasos portabilidad</label>
+            </value>
+            <value>
+                <fullName>Portabilidad no aplicada</fullName>
+                <default>false</default>
+                <label>Portabilidad no aplicada</label>
+            </value>
+            <value>
+                <fullName>Cliente no recibe mail DocuSing</fullName>
+                <default>false</default>
+                <label>Cliente no recibe mail DocuSing</label>
+            </value>
+            <value>
+                <fullName>DocuSign no permite firmar</fullName>
+                <default>false</default>
+                <label>DocuSign no permite firmar</label>
+            </value>
+            <value>
+                <fullName>DocuSign no permite anexar documentos</fullName>
+                <default>false</default>
+                <label>DocuSign no permite anexar documentos</label>
+            </value>
+            <value>
+                <fullName>SEC no reconoce contrato firmado</fullName>
+                <default>false</default>
+                <label>SEC no reconoce contrato firmado</label>
+            </value>
+            <value>
+                <fullName>SEC no reconoce Sobre cerrado</fullName>
+                <default>false</default>
+                <label>SEC no reconoce Sobre cerrado</label>
+            </value>
+            <value>
+                <fullName>Cliente no recibe mail confirmación correo</fullName>
+                <default>false</default>
+                <label>Cliente no recibe mail confirmación correo</label>
+            </value>
+            <value>
+                <fullName>Liga rota  no se confirma mail</fullName>
+                <default>false</default>
+                <label>Liga rota  no se confirma mail</label>
+            </value>
+            <value>
+                <fullName>Pago no aplicado Video</fullName>
+                <default>false</default>
+                <label>Pago no aplicado Video</label>
+            </value>
+            <value>
+                <fullName>Pago no aplicado BTI</fullName>
+                <default>false</default>
+                <label>Pago no aplicado BTI</label>
+            </value>
+            <value>
+                <fullName>Pago no aplicado BTCEL</fullName>
+                <default>false</default>
+                <label>Pago no aplicado BTCEL</label>
+            </value>
+            <value>
+                <fullName>Transferencia de saldo CEL</fullName>
+                <default>false</default>
+                <label>Transferencia de saldo CEL</label>
+            </value>
+            <value>
+                <fullName>No permite editar mail BTCEL</fullName>
+                <default>false</default>
+                <label>No permite editar mail BTCEL</label>
+            </value>
+            <value>
+                <fullName>No muestra mail BTCEL</fullName>
+                <default>false</default>
+                <label>No muestra mail BTCEL</label>
+            </value>
+            <value>
+                <fullName>No genera OM de activacion en crecimiento CEL</fullName>
+                <default>false</default>
+                <label>No genera OM de activacion en crecimiento CEL</label>
+            </value>
+            <value>
+                <fullName>Bouquet skySPORTS</fullName>
+                <default>false</default>
+                <label>Bouquet skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Componentes o Productos skySPORTS</fullName>
+                <default>false</default>
+                <label>Componentes o Productos skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Instalación física skySPORTS</fullName>
+                <default>false</default>
+                <label>Instalación física skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Mensaje de error en pantalla skySPORTS</fullName>
+                <default>false</default>
+                <label>Mensaje de error en pantalla skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Incompatibilidad equipos skySPORTS</fullName>
+                <default>false</default>
+                <label>Incompatibilidad equipos skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Software incorrecto skySPORTS</fullName>
+                <default>false</default>
+                <label>Software incorrecto skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Precios y Politicas de contratacion skySPORTS</fullName>
+                <default>false</default>
+                <label>Precios y Politicas de contratacion skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Programación LineUp skySPORTS</fullName>
+                <default>false</default>
+                <label>Programación LineUp skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Promociones skySPORTS</fullName>
+                <default>false</default>
+                <label>Promociones skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Falla en sistema SGC</fullName>
+                <default>false</default>
+                <label>Falla en sistema SGC</label>
+            </value>
+            <value>
+                <fullName>NIT mal generado</fullName>
+                <default>false</default>
+                <label>NIT mal generado</label>
+            </value>
+            <value>
+                <fullName>NIV mal generado</fullName>
+                <default>false</default>
+                <label>NIV mal generado</label>
+            </value>
+            <value>
+                <fullName>SIM Cel Dañada</fullName>
+                <default>false</default>
+                <label>SIM Cel Dañada</label>
+            </value>
+            <value>
+                <fullName>Bolsas no disponibles BTCel</fullName>
+                <default>false</default>
+                <label>Bolsas no disponibles BTCel</label>
+            </value>
+            <value>
+                <fullName>Estatus de contrato BTCel incorrecto</fullName>
+                <default>false</default>
+                <label>Estatus de contrato BTCel incorrecto</label>
+            </value>
+            <value>
+                <fullName>Estatus de contrato BTI incorrecto</fullName>
+                <default>false</default>
+                <label>Estatus de contrato BTI incorrecto</label>
+            </value>
+            <value>
+                <fullName>Cancelación de SS Crec BTCel</fullName>
+                <default>false</default>
+                <label>Cancelación de SS Crec BTCel</label>
+            </value>
+            <value>
+                <fullName>Configuración de equipo ultra</fullName>
+                <default>false</default>
+                <label>Configuración de equipo ultra</label>
+            </value>
+            <value>
+                <fullName>Sin botón continuar 58</fullName>
+                <default>false</default>
+                <label>Sin botón continuar 58</label>
+            </value>
+            <value>
+                <fullName>Sin botón continuar 79</fullName>
+                <default>false</default>
+                <label>Sin botón continuar 79</label>
+            </value>
+            <value>
+                <fullName>Cancelación o corrección de SS</fullName>
+                <default>false</default>
+                <label>Cancelación o corrección de SS</label>
+            </value>
+            <value>
+                <fullName>Cancelación o corrección de SS TMK</fullName>
+                <default>false</default>
+                <label>Cancelación o corrección de SS TMK</label>
+            </value>
+            <value>
+                <fullName>Problema al inscribirse</fullName>
+                <default>false</default>
+                <label>Problema al inscribirse</label>
+            </value>
+            <value>
+                <fullName>Información sobre registro o fechas</fullName>
+                <default>false</default>
+                <label>Información sobre registro o fechas</label>
+            </value>
+            <value>
+                <fullName>Led Rojo Módem SPBT</fullName>
+                <default>false</default>
+                <label>Led Rojo Módem SPBT</label>
+            </value>
+            <value>
+                <fullName>Led Rojo Módem Combo</fullName>
+                <default>false</default>
+                <label>Led Rojo Módem Combo</label>
+            </value>
+            <value>
+                <fullName>Sin botón continuar skySPORTS</fullName>
+                <default>false</default>
+                <label>Sin botón continuar skySPORTS</label>
+            </value>
+            <value>
+                <fullName>Problemas con grabaciones o librerías ultra</fullName>
+                <default>false</default>
+                <label>Problemas con grabaciones o librerías ultra</label>
+            </value>
+            <value>
+                <fullName>Duda en procesos alternos Cancelar Reagendar Cerrar</fullName>
+                <default>false</default>
+                <label>Duda en procesos alternos Cancelar Reagendar Cerrar</label>
+            </value>
+            <value>
+                <fullName>Sin barras de señal</fullName>
+                <default>false</default>
+                <label>Sin barras de señal</label>
+            </value>
+            <value>
+                <fullName>Error 5to equipo disp movil</fullName>
+                <default>false</default>
+                <label>Error 5to equipo disp movil</label>
+            </value>
+            <value>
+                <fullName>Falla SGC Refrendo</fullName>
+                <default>false</default>
+                <label>Falla SGC Refrendo</label>
+            </value>
+            <value>
+                <fullName>Call Center Call Back React</fullName>
+                <default>false</default>
+                <label>Call Center Call Back React</label>
+            </value>
+            <value>
+                <fullName>Error en cierre de SS Heat React</fullName>
+                <default>false</default>
+                <label>Error en cierre de SS Heat React</label>
+            </value>
+            <value>
+                <fullName>No muestra código de solución Heat React</fullName>
+                <default>false</default>
+                <label>No muestra código de solución Heat React</label>
+            </value>
+            <value>
+                <fullName>Carga de Software React</fullName>
+                <default>false</default>
+                <label>Carga de Software React</label>
+            </value>
+            <value>
+                <fullName>Componentes o Productos React</fullName>
+                <default>false</default>
+                <label>Componentes o Productos React</label>
+            </value>
+            <value>
+                <fullName>Error en pantalla React</fullName>
+                <default>false</default>
+                <label>Error en pantalla React</label>
+            </value>
+            <value>
+                <fullName>Migración con aprovisionamiento de paquete React</fullName>
+                <default>false</default>
+                <label>Migración con aprovisionamiento de paquete React</label>
+            </value>
+            <value>
+                <fullName>Migración con incompatibilidad de equipos React</fullName>
+                <default>false</default>
+                <label>Migración con incompatibilidad de equipos React</label>
+            </value>
+            <value>
+                <fullName>Sin botón continuar React 79</fullName>
+                <default>false</default>
+                <label>Sin botón continuar React 79</label>
+            </value>
+            <value>
+                <fullName>Error en cierre de SS SKY Mobile React</fullName>
+                <default>false</default>
+                <label>Error en cierre de SS SKY Mobile React</label>
+            </value>
+            <value>
+                <fullName>No muestra código de solución SKY Mobile React</fullName>
+                <default>false</default>
+                <label>No muestra código de solución SKY Mobile React</label>
+            </value>
+            <value>
+                <fullName>Bouquet Trad79</fullName>
+                <default>false</default>
+                <label>Bouquet Trad79</label>
+            </value>
+            <value>
+                <fullName>Carga de Software Trad79</fullName>
+                <default>false</default>
+                <label>Carga de Software Trad79</label>
+            </value>
+            <value>
+                <fullName>Componentes o Productos Trad79</fullName>
+                <default>false</default>
+                <label>Componentes o Productos Trad79</label>
+            </value>
+            <value>
+                <fullName>Configuración Trad79</fullName>
+                <default>false</default>
+                <label>Configuración Trad79</label>
+            </value>
+            <value>
+                <fullName>Error en pantalla Trad79</fullName>
+                <default>false</default>
+                <label>Error en pantalla Trad79</label>
+            </value>
+            <value>
+                <fullName>Instalación física Trad79</fullName>
+                <default>false</default>
+                <label>Instalación física Trad79</label>
+            </value>
+            <value>
+                <fullName>Sin botón continuar Trad79</fullName>
+                <default>false</default>
+                <label>Sin botón continuar Trad79</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Componentes o Productos incorrectos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Componentes o Productos incorrectos BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Componentes o Productos incorrectos CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Equipo/s no visibles en Sistema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Equipo/s no visibles en Sistema BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Equipo/s no visibles en Sistema CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>IRD con estatus incorrecto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>IRD con estatus incorrecto BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>IRD con estatus incorrecto CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Deleted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Deleted BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Deleted CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Error de Envío</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Error de Envío BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Error de Envío CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM In Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM In Progress BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM In Progress CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Open</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Open BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>OM Open CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Sin recarga reflejada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Sin recarga reflejada BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Sin recarga reflejada CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Bolsas no disponibles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Pago no aplicado Video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Pago no aplicado BTI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Pago no aplicado BTCEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Bolsas no disponibles BTCel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Estatus de contrato BTCel incorrecto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Estatus de contrato BTI incorrecto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Hi Jump</controllingFieldValue>
+            <valueName>Cancelación de SS Crec BTCel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migracion Trad79</controllingFieldValue>
+            <valueName>Bouquet Trad79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migracion Trad79</controllingFieldValue>
+            <valueName>Carga de Software Trad79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migracion Trad79</controllingFieldValue>
+            <valueName>Componentes o Productos Trad79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migracion Trad79</controllingFieldValue>
+            <valueName>Configuración Trad79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migracion Trad79</controllingFieldValue>
+            <valueName>Error en pantalla Trad79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migracion Trad79</controllingFieldValue>
+            <valueName>Instalación física Trad79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Migracion Trad79</controllingFieldValue>
+            <valueName>Sin botón continuar Trad79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LOGISTICA</controllingFieldValue>
+            <valueName>Estatus de equipos BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LOGISTICA</controllingFieldValue>
+            <valueName>Estatus de equipos BTCEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LOGISTICA</controllingFieldValue>
+            <valueName>Estatus de equipos video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LOGISTICA</controllingFieldValue>
+            <valueName>Validación de consignación de equipos BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LOGISTICA</controllingFieldValue>
+            <valueName>Validación de consignación de equipos BTCEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LOGISTICA</controllingFieldValue>
+            <valueName>Validación de consignación de equipos video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mesa de Reparaciones</controllingFieldValue>
+            <valueName>OT/SS no asignada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mesa de Reparaciones</controllingFieldValue>
+            <valueName>Relacionados con claves padre de reparadores _02 y _03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mesa de Reparaciones</controllingFieldValue>
+            <valueName>Seguimiento de estatus de SS/OT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mesa de Validación</controllingFieldValue>
+            <valueName>Duda de validación de contratos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mesa de Validación</controllingFieldValue>
+            <valueName>Duda de validación de documentación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>News Letter y Comunicados</controllingFieldValue>
+            <valueName>Componente Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>News Letter y Comunicados</controllingFieldValue>
+            <valueName>Incluir en lista de comunicados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>News Letter y Comunicados</controllingFieldValue>
+            <valueName>Información para activar señal de CT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIG/Recuperador</controllingFieldValue>
+            <valueName>Acceso al portal de saldos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIG/Recuperador</controllingFieldValue>
+            <valueName>Alta NIG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIG/Recuperador</controllingFieldValue>
+            <valueName>Baja NIG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIG/Recuperador</controllingFieldValue>
+            <valueName>Boletinado NIG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIG/Recuperador</controllingFieldValue>
+            <valueName>Consulta estatus NIG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIG/Recuperador</controllingFieldValue>
+            <valueName>Consulta estatus Recuperador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIG/Recuperador</controllingFieldValue>
+            <valueName>Suspensión NIG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIT</controllingFieldValue>
+            <valueName>Alta NIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIT</controllingFieldValue>
+            <valueName>Baja NIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIT</controllingFieldValue>
+            <valueName>Boletinado NIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIT</controllingFieldValue>
+            <valueName>Consulta estatus NIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIT</controllingFieldValue>
+            <valueName>Solicitud de Liberación de Técnico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIT</controllingFieldValue>
+            <valueName>Suspensión NIT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIT</controllingFieldValue>
+            <valueName>NIT mal generado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIV</controllingFieldValue>
+            <valueName>Alta NIV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIV</controllingFieldValue>
+            <valueName>Baja NIV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIV</controllingFieldValue>
+            <valueName>Boletinado NIV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIV</controllingFieldValue>
+            <valueName>Consulta estatus NIV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIV</controllingFieldValue>
+            <valueName>Solicitud de Liberación de Vendedor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIV</controllingFieldValue>
+            <valueName>Suspensión NIV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NIV</controllingFieldValue>
+            <valueName>NIV mal generado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFSC</controllingFieldValue>
+            <valueName>Error de Acceso OFSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFSC</controllingFieldValue>
+            <valueName>Falla en Sistema OFSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>OFSC</controllingFieldValue>
+            <valueName>No muestra código/Inventario de Solución</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP Commissions Ventas</controllingFieldValue>
+            <valueName>Contratos no reflejados en sistema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP Commissions Ventas</controllingFieldValue>
+            <valueName>Duda Operativa SCV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP Commissions Ventas</controllingFieldValue>
+            <valueName>Error de Acceso SCV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SAP Commissions Ventas</controllingFieldValue>
+            <valueName>Falla en Sistema SCV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Callidus</controllingFieldValue>
+            <valueName>Duda Operativa Callidus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Callidus</controllingFieldValue>
+            <valueName>Error de Acceso Callidus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Callidus</controllingFieldValue>
+            <valueName>Falla en Sistema Callidus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Callidus</controllingFieldValue>
+            <valueName>OT o SS no reflejados en Sistema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Contrato no migró a Siebel Hi Jump</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Cuenta activa con estatus rechazado en SEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Duda en activación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Duda en captura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Error de Acceso SEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Falla en SEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Falla en SEC con afectación a cuenta CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Falla en SEC con afectación a cuenta con Modem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>Falla en SEC con afectación a cuenta video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>No carga página SEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>No genera OM de activación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>No permite editar mail BTCEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>No muestra mail BTCEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEC</controllingFieldValue>
+            <valueName>No genera OM de activacion en crecimiento CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS</controllingFieldValue>
+            <valueName>Canalización con Soporte Administrativo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS</controllingFieldValue>
+            <valueName>Problemas de acceso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CAS</controllingFieldValue>
+            <valueName>Solicitud de contraseña CAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seguimiento Vtas</controllingFieldValue>
+            <valueName>Contrato TMK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seguimiento Vtas</controllingFieldValue>
+            <valueName>SS no asignada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seguimiento Vtas</controllingFieldValue>
+            <valueName>SS no asignada BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seguimiento Vtas</controllingFieldValue>
+            <valueName>Cancelación o corrección de SS TMK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consulta Val Capa</controllingFieldValue>
+            <valueName>Validar Folio de Confirmación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consulta Val Capa</controllingFieldValue>
+            <valueName>Validar Mensaje de Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consulta Val Capa</controllingFieldValue>
+            <valueName>Verificar permisos de envío de solicitud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Error de acceso SKY Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Estatus de Liberación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Falla en SKY MB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Falla en SKY MB con afectación a cuenta CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Falla en SKY MB con afectación a cuenta con Modem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Falla en SKY MB con afectación a cuenta video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Incidencia en OT con OFSC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Incompatibilidad de equipo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Incompatiblidad versión Android</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Mensaje: Equipo inválido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Movimientos IMEI&apos;s</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Sin acceso a perfil Técnico o Comercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>Error en cierre de SS SKY Mobile React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SKY Mobile</controllingFieldValue>
+            <valueName>No muestra código de solución SKY Mobile React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cursos</controllingFieldValue>
+            <valueName>Aclaración de Evaluación/Calificación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cursos</controllingFieldValue>
+            <valueName>Instructor no ha reportado Curso</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cursos</controllingFieldValue>
+            <valueName>Participante no aparece en reporte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cursos</controllingFieldValue>
+            <valueName>Reseteo de Evaluación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cursos</controllingFieldValue>
+            <valueName>Problema al inscribirse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cursos</controllingFieldValue>
+            <valueName>Información sobre registro o fechas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skynews</controllingFieldValue>
+            <valueName>Agregar perfil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skynews</controllingFieldValue>
+            <valueName>Creación de usuario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Skynews</controllingFieldValue>
+            <valueName>Incidencia en usuario</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Despacho</controllingFieldValue>
+            <valueName>Estatus de equipos recuperados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Despacho</controllingFieldValue>
+            <valueName>Operaciones de Despacho</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SQC</controllingFieldValue>
+            <valueName>Error en SQC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SQC</controllingFieldValue>
+            <valueName>Falla con verificador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Comercial</controllingFieldValue>
+            <valueName>Precios de Programación, PPV, Canales a la Carta o Temporadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Comercial</controllingFieldValue>
+            <valueName>Precios y Políticas de contratación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Comercial</controllingFieldValue>
+            <valueName>Promociones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Comercial</controllingFieldValue>
+            <valueName>Tipos de cuenta o Bandera</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Comercial</controllingFieldValue>
+            <valueName>Precios y Politicas de contratacion skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Comercial</controllingFieldValue>
+            <valueName>Programación LineUp skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Comercial</controllingFieldValue>
+            <valueName>Promociones skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Advanced setup secundario ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Versión Alojada de sw para secundarios ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Cableado coaxial ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Cableado HDMI ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Problema HDCP ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Conectividad wifi ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Divisor o LNB incompatible ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>DRM no activo ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Sin disposición para realizar pruebas ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Software de principal ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Técnico no se encuentra en el domicilio ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Filtros especiales MDU ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Sin botón finalizar ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Equipo secundario ultra sin imagen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Mensaje en pantalla ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Falla de comunicación equipo secundario ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Programación congelada o bloqueada ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Configuración de equipo ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Problemas con grabaciones o librerías ultra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ultra</controllingFieldValue>
+            <valueName>Error 5to equipo disp movil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Carga de Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Componentes o Productos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Instalación física</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Instalación y configuración Satélite 58</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Instalación y configuración Satélite 79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Mensaje de error en pantalla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Migración con incompatibilidad de equipos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Sin botón continuar 58</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Duda Técnica</controllingFieldValue>
+            <valueName>Sin botón continuar 79</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TI</controllingFieldValue>
+            <valueName>Incidencia en sistemas no categorizados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EDICOM</controllingFieldValue>
+            <valueName>Dudas de sistema Edicom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EDICOM</controllingFieldValue>
+            <valueName>Envío de Facturas por Edicom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EDICOM</controllingFieldValue>
+            <valueName>Incidencia en Edicom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EDICOM</controllingFieldValue>
+            <valueName>Solicitud de acceso Edicom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super tickets</controllingFieldValue>
+            <valueName>Encolamiento de Solicitudes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super tickets</controllingFieldValue>
+            <valueName>Incidencia general</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super tickets</controllingFieldValue>
+            <valueName>Lentitud en sistemas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super tickets</controllingFieldValue>
+            <valueName>No categorizada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super tickets</controllingFieldValue>
+            <valueName>Ventana de mantenimiento extendida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Super tickets</controllingFieldValue>
+            <valueName>Falla en sistema SGC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error 80</controllingFieldValue>
+            <valueName>Bloqueo de puente de pareo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error 80</controllingFieldValue>
+            <valueName>Cableado E80</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error 80</controllingFieldValue>
+            <valueName>Incompatibilidad MH01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error 80</controllingFieldValue>
+            <valueName>Jerarquías</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error 80</controllingFieldValue>
+            <valueName>Se agenda cita con el técnico para pruebas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error 80</controllingFieldValue>
+            <valueName>Sin disposición para realizar pruebas E80</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error 80</controllingFieldValue>
+            <valueName>Software incorrecto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Error 80</controllingFieldValue>
+            <valueName>Técnico no se encuentra en el domicilio E80</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>Atención a Técnicos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>Blue Telecomm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>Corta al digitar cuenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>Evita Carrusel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>No acepta password vigente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>No hace reenvío de señal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>Servicio a BTCel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>Servicio a Clientes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>Servicio a Clientes VeTV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Falla en IVR</controllingFieldValue>
+            <valueName>Call Center Call Back React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admon Operaciones</controllingFieldValue>
+            <valueName>Altas de claves padres de reciente creación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admon Operaciones</controllingFieldValue>
+            <valueName>Asignación de claves padre 07 a claves de master 01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admon Vtas</controllingFieldValue>
+            <valueName>Aclaración de Activaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admon Vtas</controllingFieldValue>
+            <valueName>Creación de clave padre 07/035</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admon Vtas</controllingFieldValue>
+            <valueName>Estatus de Distribución</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admon Vtas</controllingFieldValue>
+            <valueName>NIT Suspendido por adeudo en cuenta Sky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admon Vtas</controllingFieldValue>
+            <valueName>Seguimiento Boletín</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Admon Vtas</controllingFieldValue>
+            <valueName>Seguimiento de prospecto a DI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blue Telecomm Inalámbrico</controllingFieldValue>
+            <valueName>Activación de Módem SPBT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blue Telecomm Inalámbrico</controllingFieldValue>
+            <valueName>Comercial (Precios y/o Paquetes) SPBT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blue Telecomm Inalámbrico</controllingFieldValue>
+            <valueName>Módem sin Señal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blue Telecomm Inalámbrico</controllingFieldValue>
+            <valueName>Transferencia de Saldo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Blue Telecomm Inalámbrico</controllingFieldValue>
+            <valueName>Led Rojo Módem SPBT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>Duda Prospección</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>Configuración de terminal celular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>Duda en pasos portabilidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>Portabilidad no aplicada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>Cliente no recibe mail confirmación correo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>Liga rota  no se confirma mail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>Transferencia de saldo CEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>SIM Cel Dañada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTCEL</controllingFieldValue>
+            <valueName>Sin barras de señal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTI Combos (BT-Video)</controllingFieldValue>
+            <valueName>Activación de Módem Combo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTI Combos (BT-Video)</controllingFieldValue>
+            <valueName>Comercial (Precios y/o Paquetes) Combo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTI Combos (BT-Video)</controllingFieldValue>
+            <valueName>Módem sin Señal Combos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BTI Combos (BT-Video)</controllingFieldValue>
+            <valueName>Led Rojo Módem Combo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DocuSign</controllingFieldValue>
+            <valueName>Cliente no recibe mail DocuSing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DocuSign</controllingFieldValue>
+            <valueName>DocuSign no permite firmar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DocuSign</controllingFieldValue>
+            <valueName>DocuSign no permite anexar documentos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DocuSign</controllingFieldValue>
+            <valueName>SEC no reconoce contrato firmado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DocuSign</controllingFieldValue>
+            <valueName>SEC no reconoce Sobre cerrado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>skySPORTS</controllingFieldValue>
+            <valueName>Bouquet skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>skySPORTS</controllingFieldValue>
+            <valueName>Componentes o Productos skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>skySPORTS</controllingFieldValue>
+            <valueName>Instalación física skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>skySPORTS</controllingFieldValue>
+            <valueName>Mensaje de error en pantalla skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>skySPORTS</controllingFieldValue>
+            <valueName>Incompatibilidad equipos skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>skySPORTS</controllingFieldValue>
+            <valueName>Software incorrecto skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>skySPORTS</controllingFieldValue>
+            <valueName>Sin botón continuar skySPORTS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GPO SAP</controllingFieldValue>
+            <valueName>Asociación de DI con clave padre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GPO SAP</controllingFieldValue>
+            <valueName>Incidencia en SAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Refrendo técnico</controllingFieldValue>
+            <valueName>Falla SGC Refrendo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Contraseña HEAT Citrix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Contraseña HEAT Extranet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Entrega de claves de acceso HEAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Error en acceso (pantalla azul)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Error en cierre de SS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Error en cierre de SS BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Falla en HEAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Falla en HEAT con afectación a cuenta con BTCEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Falla en HEAT con afectación a cuenta con Modem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Falla en HEAT con afectación a cuenta video</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>No muestra código de solución</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>No muestra código de solución BTI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Cancelación o corrección de SS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Duda en procesos alternos Cancelar Reagendar Cerrar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>Error en cierre de SS Heat React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HEAT</controllingFieldValue>
+            <valueName>No muestra código de solución Heat React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reactivaciones VeTV HD</controllingFieldValue>
+            <valueName>Carga de Software React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reactivaciones VeTV HD</controllingFieldValue>
+            <valueName>Componentes o Productos React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reactivaciones VeTV HD</controllingFieldValue>
+            <valueName>Error en pantalla React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reactivaciones VeTV HD</controllingFieldValue>
+            <valueName>Migración con aprovisionamiento de paquete React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reactivaciones VeTV HD</controllingFieldValue>
+            <valueName>Migración con incompatibilidad de equipos React</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reactivaciones VeTV HD</controllingFieldValue>
+            <valueName>Sin botón continuar React 79</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

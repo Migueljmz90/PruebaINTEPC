@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Estado_civil__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Estado civil del Técnico, Vendedor, .....</inlineHelpText>
+    <label>Estado civil</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Casado</fullName>
+                <default>false</default>
+                <label>Casado</label>
+            </value>
+            <value>
+                <fullName>Soltero</fullName>
+                <default>false</default>
+                <label>Soltero</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

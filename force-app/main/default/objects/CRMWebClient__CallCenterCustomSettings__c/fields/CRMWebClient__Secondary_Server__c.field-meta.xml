@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__Secondary_Server__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Specify the PureConnect Server 2 Name used for switchovers.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Specify the PureConnect Server 2 Name used for switchovers.</inlineHelpText>
+    <label>PureConnect Server 2 Name</label>
+    <length>200</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ambito__c</fullName>
+    <description>Seleccionar sistemas que, en fase de diseño, daran cobertura a la historia de usuario.</description>
+    <externalId>false</externalId>
+    <label>Ámbito</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>true</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Siebel</fullName>
+                <default>false</default>
+                <label>Siebel</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>Field Services</fullName>
+                <default>false</default>
+                <label>Field Services</label>
+            </value>
+            <value>
+                <fullName>IIR</fullName>
+                <default>false</default>
+                <label>IIR</label>
+            </value>
+            <value>
+                <fullName>SKY Mobile</fullName>
+                <default>false</default>
+                <label>SKY Mobile</label>
+            </value>
+            <value>
+                <fullName>SEC</fullName>
+                <default>false</default>
+                <label>SEC</label>
+            </value>
+            <value>
+                <fullName>Callidus</fullName>
+                <default>false</default>
+                <label>Callidus</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Capacitación</fullName>
+                <default>false</default>
+                <label>Capacitación</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

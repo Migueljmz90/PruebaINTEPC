@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__Connected_Interactions_Call_Logs__c</fullName>
+    <defaultValue>true</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Only saves call logs for interactions that have been connected from the agent&apos;s perspective at least once.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Checking this box only saves call logs for interactions that have been connected from the agent&apos;s perspective at least once.</inlineHelpText>
+    <label>Only Save Connected Interactions</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

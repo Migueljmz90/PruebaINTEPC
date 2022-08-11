@@ -1,0 +1,1814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Caso_Email</fullName>
+    <active>true</active>
+    <businessProcess>LXD Case Email2Case</businessProcess>
+    <label>Caso Email</label>
+    <picklistValues>
+        <picklist>Estado_Civil__c</picklist>
+        <values>
+            <fullName>Casado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soltero</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Aprobado__c</picklist>
+        <values>
+            <fullName>Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rechazado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Canal_de_Venta__c</picklist>
+        <values>
+            <fullName>VENDEDOR CAMBECEO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENDEDOR PUNTO DE VENTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENDEDOR TELEMARKETING</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Comprobante_de_Domicilio__c</picklist>
+        <values>
+            <fullName>AGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LUZ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TELEFONO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Estado_Civil__c</picklist>
+        <values>
+            <fullName>Casado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soltero</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Genero__c</picklist>
+        <values>
+            <fullName>Femenino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masculino</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Identificacion_Personal__c</picklist>
+        <values>
+            <fullName>Credencial para votar %28INE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licencia para conducir</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pasaporte</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Nacionalidad__c</picklist>
+        <values>
+            <fullName>COLOMBIANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>COSTARRICENSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CUBANO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DOMINICANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GUATEMALTECA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HONDUREÑA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MEXICANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NICARAGUENSE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PANAMEÑA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SALVADOREÑA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VENEZOLANA</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Nivel_de_estudios__c</picklist>
+        <values>
+            <fullName>Carrera técnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Licenciatura o Ingenieria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posgrado o Superior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Preparatoria o Bachillerato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Primaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secundaria</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Nombre_Master__c</picklist>
+        <values>
+            <fullName>CODASAT GUATEMALA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODASAT NICARAGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODICE %28MX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODICE CR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODICE DOMINICANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODICE HONDURAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODICE NICARAGUA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODICE PAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODOSAT CR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODOSAT DOMINICANA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODOSAT EL SALVADOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CODOSAT PAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DLI2 %28MX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GITTSA TELECOM %28MX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOVAVISION %28MX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOVAVISION CR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEÑAL SATALITE %28MX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMART %28MX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TTE %28MX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VANGUARDIA SATELITAL %28MX%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Subtipo__c</picklist>
+        <values>
+            <fullName>Acceso al portal de saldos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aclaración de Activaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aclaración de Evaluación%2FCalificación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activación de Módem Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activación de Módem SPBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advanced setup secundario ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agregar perfil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta NIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Altas de claves padres de reciente creación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asignación de claves padre 07 a claves de master 01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asociación de DI con clave padre</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atención a Técnicos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja NIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo de puente de pareo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Telecomm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boletinado NIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boletinado NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boletinado NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bolsas no disponibles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bolsas no disponibles BTCel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bouquet Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bouquet skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cableado E80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cableado HDMI ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cableado coaxial ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Center Call Back React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canalización con Soporte Administrativo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación de SS Crec BTCel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación o corrección de SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación o corrección de SS TMK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carga de Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carga de Software React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carga de Software Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente no recibe mail DocuSing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente no recibe mail confirmación correo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercial %28Precios y%2Fo Paquetes%29 Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comercial %28Precios y%2Fo Paquetes%29 SPBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Componente Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Componentes o Productos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Componentes o Productos React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Componentes o Productos Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Componentes o Productos incorrectos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Componentes o Productos incorrectos BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Componentes o Productos incorrectos CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Componentes o Productos skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conectividad wifi ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Configuración Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Configuración de equipo ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Configuración de terminal celular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta estatus NIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta estatus NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta estatus NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta estatus Recuperador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contraseña HEAT Citrix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contraseña HEAT Extranet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contrato TMK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contrato no migró a Siebel Hi Jump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contratos no reflejados en sistema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corta al digitar cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creación de clave padre 07%2F035</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Creación de usuario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuenta activa con estatus rechazado en SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DRM no activo ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Divisor o LNB incompatible ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DocuSign no permite anexar documentos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DocuSign no permite firmar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda Operativa Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda Operativa SCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda Prospección</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda de validación de contratos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda de validación de documentación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda en activación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda en captura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda en pasos portabilidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda en procesos alternos Cancelar Reagendar Cerrar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dudas de sistema Edicom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Encolamiento de Solicitudes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega de claves de acceso HEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío de Facturas por Edicom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipo secundario ultra sin imagen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipo%2Fs no visibles en Sistema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipo%2Fs no visibles en Sistema BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Equipo%2Fs no visibles en Sistema CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error 5to equipo disp movil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error de Acceso Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error de Acceso OFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error de Acceso SCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error de Acceso SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error de acceso SKY Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en SQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en acceso %28pantalla azul%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en cierre de SS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en cierre de SS BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en cierre de SS Heat React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en cierre de SS SKY Mobile React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en pantalla React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error en pantalla Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de Distribución</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de Liberación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de contrato BTCel incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de contrato BTI incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de equipos BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de equipos BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de equipos recuperados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de equipos video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Evita Carrusel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla SGC Refrendo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla con verificador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla de comunicación equipo secundario ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en HEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en HEAT con afectación a cuenta con BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en HEAT con afectación a cuenta con Modem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en HEAT con afectación a cuenta video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en SEC con afectación a cuenta CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en SEC con afectación a cuenta con Modem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en SEC con afectación a cuenta video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en SKY MB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en SKY MB con afectación a cuenta CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en SKY MB con afectación a cuenta con Modem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en SKY MB con afectación a cuenta video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en Sistema Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en Sistema OFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en Sistema SCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en sistema SGC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filtros especiales MDU ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRD con estatus incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRD con estatus incorrecto BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IRD con estatus incorrecto CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencia en Edicom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencia en OT con OFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencia en SAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencia en sistemas no categorizados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencia en usuario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencia general</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incluir en lista de comunicados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incompatibilidad MH01</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incompatibilidad de equipo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incompatibilidad equipos skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incompatiblidad versión Android</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información para activar señal de CT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información sobre registro o fechas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalación física</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalación física Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalación física skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalación y configuración Satélite 58</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instalación y configuración Satélite 79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructor no ha reportado Curso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jerarquías</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Led Rojo Módem Combo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Led Rojo Módem SPBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lentitud en sistemas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liga rota  no se confirma mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensaje de error en pantalla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensaje de error en pantalla skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensaje en pantalla ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensaje%3A Equipo inválido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migración con aprovisionamiento de paquete React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migración con incompatibilidad de equipos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migración con incompatibilidad de equipos React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Movimientos IMEI%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Módem sin Señal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Módem sin Señal Combos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIT Suspendido por adeudo en cuenta Sky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIT mal generado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIV mal generado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No acepta password vigente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No carga página SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No categorizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No genera OM de activacion en crecimiento CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No genera OM de activación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No hace reenvío de señal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No muestra código de solución</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No muestra código de solución BTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No muestra código de solución Heat React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No muestra código de solución SKY Mobile React</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No muestra código%2FInventario de Solución</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No muestra mail BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No permite editar mail BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Deleted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Deleted BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Deleted CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Error de Envío</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Error de Envío BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Error de Envío CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM In Progress BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM In Progress CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Open</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Open BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OM Open CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OT o SS no reflejados en Sistema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OT%2FSS no asignada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones de Despacho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago no aplicado BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago no aplicado BTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago no aplicado Video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Participante no aparece en reporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portabilidad no aplicada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precios de Programación%2C PPV%2C Canales a la Carta o Temporadas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precios y Politicas de contratacion skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Precios y Políticas de contratación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema HDCP ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problema al inscribirse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problemas con grabaciones o librerías ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problemas de acceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programación LineUp skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Programación congelada o bloqueada ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promociones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promociones skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relacionados con claves padre de reparadores _02 y _03</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reseteo de Evaluación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEC no reconoce Sobre cerrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEC no reconoce contrato firmado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIM Cel Dañada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SS no asignada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SS no asignada BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Se agenda cita con el técnico para pruebas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento Boletín</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento de estatus de SS%2FOT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento de prospecto a DI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio a BTCel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio a Clientes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicio a Clientes VeTV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin acceso a perfil Técnico o Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin barras de señal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin botón continuar 58</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin botón continuar 79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin botón continuar React 79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin botón continuar Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin botón continuar skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin botón finalizar ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin disposición para realizar pruebas E80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin disposición para realizar pruebas ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin recarga reflejada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin recarga reflejada BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sin recarga reflejada CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software de principal ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software incorrecto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software incorrecto skySPORTS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de Liberación de Técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de Liberación de Vendedor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de acceso Edicom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de contraseña CAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspensión NIG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspensión NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suspensión NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tipos de cuenta o Bandera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferencia de Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferencia de saldo CEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Técnico no se encuentra en el domicilio E80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Técnico no se encuentra en el domicilio ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validación de consignación de equipos BT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validación de consignación de equipos BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validación de consignación de equipos video</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validar Folio de Confirmación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validar Mensaje de Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ventana de mantenimiento extendida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verificar permisos de envío de solicitud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Versión Alojada de sw para secundarios ultra</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>LXD_Tipo_de_clave_operativa__c</picklist>
+        <values>
+            <fullName>Gestor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vendedor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>LXD_Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Teléfono</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>LXD_Alta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Baja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Media</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>LXD_El usuario no atendió al entrenamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Funcionalidad Compleja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Las instrucciones no son claras</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Nuevo problema</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LXD_Problema existente</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Admon Operaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Admon Vtas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTCEL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BTI Combos %28BT-Video%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blue Telecomm Inalámbrico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Callidus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta Val Capa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cursos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Despacho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DocuSign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda Comercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Duda Técnica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EDICOM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error 80</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falla en IVR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GPO SAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HEAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hi Jump</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LOGISTICA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mesa de Reparaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mesa de Validación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Migracion Trad79</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIG%2FRecuperador</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NIV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>News Letter y Comunicados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OFSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reactivaciones VeTV HD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refrendo técnico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP Commissions Ventas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKY Mobile</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SQC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento Vtas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skynews</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Super tickets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ultra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>skySPORTS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>vlocity_cmt__Reason__c</picklist>
+        <values>
+            <fullName>Account info in blacklist removal request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account requires credit evaluation exception</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adress does not have pre-feasibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change of mobile due to malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generate a bill copy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generate consumption details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry about campaign</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry about plan details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry about promotion details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry service pre-feasibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem creating account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem receiving bill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with CPE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with IMEI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with SIM unlock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with SMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with add-on creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with add-on registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with automatic payment configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with bill adjustment and refunds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with bill explanation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with bill payment receipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with change of MSISDN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with change of SIM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with change of billing cycle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with change of customer information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with change of mobile phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with change of ownership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with change of plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with change to retention plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with credit card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with delivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with friends and family number configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with impairment accessibility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with installation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with managing users</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with mobile configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with port-in</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with port-out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with recurring discounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with repair pick up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with roaming</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with service consumption details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with service restoration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with suspensions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with termination</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with top up registration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with top-up creation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with transferring credit between accounts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with usage thresholds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with voice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem with voluntary suspension</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request change plan terms and conditions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request for adjustments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request mobile on loan while repair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request supervisor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Require assistance with self service portal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suggestions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacknowledged change of plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacknowledged purchase</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unacknowledged termination</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

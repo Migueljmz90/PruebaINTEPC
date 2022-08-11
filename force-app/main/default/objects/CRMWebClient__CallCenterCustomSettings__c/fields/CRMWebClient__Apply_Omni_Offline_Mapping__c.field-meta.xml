@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__Apply_Omni_Offline_Mapping__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Apply status mappings when Omni-Channel is in the Offline state.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Apply status mappings when Omni-Channel is in the Offline state.</inlineHelpText>
+    <label>Apply mappings when Offline</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

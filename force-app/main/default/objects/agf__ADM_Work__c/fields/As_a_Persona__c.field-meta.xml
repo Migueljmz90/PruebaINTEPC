@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>As_a_Persona__c</fullName>
+    <externalId>false</externalId>
+    <label>As a(Persona):</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CMO</fullName>
+                <default>false</default>
+                <label>CMO</label>
+            </value>
+            <value>
+                <fullName>Subdirector de Marketing</fullName>
+                <default>false</default>
+                <label>Subdirector de Marketing</label>
+            </value>
+            <value>
+                <fullName>Gerente de Redes Sociales</fullName>
+                <default>false</default>
+                <label>Gerente de Redes Sociales</label>
+            </value>
+            <value>
+                <fullName>Analista de Redes Sociales</fullName>
+                <default>false</default>
+                <label>Analista de Redes Sociales</label>
+            </value>
+            <value>
+                <fullName>Subdirector de Transformación Digital</fullName>
+                <default>false</default>
+                <label>Subdirector de Transformación Digital</label>
+            </value>
+            <value>
+                <fullName>Analista de Marketing</fullName>
+                <default>false</default>
+                <label>Analista de Marketing</label>
+            </value>
+            <value>
+                <fullName>(CC) Ejecutivo Clientes Nuevos Interno</fullName>
+                <default>false</default>
+                <label>(CC) Ejecutivo Clientes Nuevos Interno</label>
+            </value>
+            <value>
+                <fullName>(CC) Supervisor Nuevos Interno</fullName>
+                <default>false</default>
+                <label>(CC) Supervisor Nuevos Interno</label>
+            </value>
+            <value>
+                <fullName>(CC) Coordinador Nuevos Interno</fullName>
+                <default>false</default>
+                <label>(CC) Coordinador Nuevos Interno</label>
+            </value>
+            <value>
+                <fullName>(CC) Gerente Nuevos Interno</fullName>
+                <default>false</default>
+                <label>(CC) Gerente Nuevos Interno</label>
+            </value>
+            <value>
+                <fullName>(CC) Ejecutivos Clientes Activos Interno</fullName>
+                <default>false</default>
+                <label>(CC) Ejecutivos Clientes Activos Interno</label>
+            </value>
+            <value>
+                <fullName>(CC) Supervisor Activos Interno</fullName>
+                <default>false</default>
+                <label>(CC) Supervisor Activos Interno</label>
+            </value>
+            <value>
+                <fullName>(CC) Coordinador Activos Interno</fullName>
+                <default>false</default>
+                <label>(CC) Coordinador Activos Interno</label>
+            </value>
+            <value>
+                <fullName>(CC) Gerente Activos Interno</fullName>
+                <default>false</default>
+                <label>(CC) Gerente Activos Interno</label>
+            </value>
+            <value>
+                <fullName>(CC) Subdirector</fullName>
+                <default>false</default>
+                <label>(CC) Subdirector</label>
+            </value>
+            <value>
+                <fullName>(CC) Ejecutivo Clientes Nuevos Externo</fullName>
+                <default>false</default>
+                <label>(CC) Ejecutivo Clientes Nuevos Externo</label>
+            </value>
+            <value>
+                <fullName>(VD) Gerente POS</fullName>
+                <default>false</default>
+                <label>(VD) Gerente POS</label>
+            </value>
+            <value>
+                <fullName>(VD) Gerente CAM</fullName>
+                <default>false</default>
+                <label>(VD) Gerente CAM</label>
+            </value>
+            <value>
+                <fullName>(VD) Gerente MDU</fullName>
+                <default>false</default>
+                <label>(VD) Gerente MDU</label>
+            </value>
+            <value>
+                <fullName>(VD) Distribuidor Gerente/Ejecutivo</fullName>
+                <default>false</default>
+                <label>(VD) Distribuidor Gerente/Ejecutivo</label>
+            </value>
+            <value>
+                <fullName>(MA) Subdirector</fullName>
+                <default>false</default>
+                <label>(MA) Subdirector</label>
+            </value>
+            <value>
+                <fullName>(MA) Regional</fullName>
+                <default>false</default>
+                <label>(MA) Regional</label>
+            </value>
+            <value>
+                <fullName>(MA) Gerente ejecutivo</fullName>
+                <default>false</default>
+                <label>(MA) Gerente ejecutivo</label>
+            </value>
+            <value>
+                <fullName>(MA) Estatal</fullName>
+                <default>false</default>
+                <label>(MA) Estatal</label>
+            </value>
+            <value>
+                <fullName>(MA) Distribuidor</fullName>
+                <default>false</default>
+                <label>(MA) Distribuidor</label>
+            </value>
+            <value>
+                <fullName>(MA) Ejecutivo ciudad</fullName>
+                <default>false</default>
+                <label>(MA) Ejecutivo ciudad</label>
+            </value>
+            <value>
+                <fullName>(MA) Subdistribuidor</fullName>
+                <default>false</default>
+                <label>(MA) Subdistribuidor</label>
+            </value>
+            <value>
+                <fullName>(AC) Gerencia</fullName>
+                <default>false</default>
+                <label>(AC) Gerencia</label>
+            </value>
+            <value>
+                <fullName>(AC) Coordinacion</fullName>
+                <default>false</default>
+                <label>(AC) Coordinacion</label>
+            </value>
+            <value>
+                <fullName>(AC) Supervisor Activaciones</fullName>
+                <default>false</default>
+                <label>(AC) Supervisor Activaciones</label>
+            </value>
+            <value>
+                <fullName>(AC) Supervisor Cambio de Prospecto</fullName>
+                <default>false</default>
+                <label>(AC) Supervisor Cambio de Prospecto</label>
+            </value>
+            <value>
+                <fullName>(AC) Ejecutivo Activaciones</fullName>
+                <default>false</default>
+                <label>(AC) Ejecutivo Activaciones</label>
+            </value>
+            <value>
+                <fullName>(AC) Ejecutivo de cambio de prospecto</fullName>
+                <default>false</default>
+                <label>(AC) Ejecutivo de cambio de prospecto</label>
+            </value>
+            <value>
+                <fullName>(CA) Directores (Visores)</fullName>
+                <default>false</default>
+                <label>(CA) Directores (Visores)</label>
+            </value>
+            <value>
+                <fullName>(CA) Subdirectores (Asignadores)</fullName>
+                <default>false</default>
+                <label>(CA) Subdirectores (Asignadores)</label>
+            </value>
+            <value>
+                <fullName>(CA) Gerente/Ejecutivo (Visitadores)</fullName>
+                <default>false</default>
+                <label>(CA) Gerente/Ejecutivo (Visitadores)</label>
+            </value>
+            <value>
+                <fullName>(CA) Distribuidores</fullName>
+                <default>false</default>
+                <label>(CA) Distribuidores</label>
+            </value>
+            <value>
+                <fullName>(CA) Validacion</fullName>
+                <default>false</default>
+                <label>(CA) Validacion</label>
+            </value>
+            <value>
+                <fullName>(CA) *Areas Funcionales</fullName>
+                <default>false</default>
+                <label>(CA) *Areas Funcionales</label>
+            </value>
+            <value>
+                <fullName>(PH) Subdirector</fullName>
+                <default>false</default>
+                <label>(PH) Subdirector</label>
+            </value>
+            <value>
+                <fullName>(PH) Especialista PH</fullName>
+                <default>false</default>
+                <label>(PH) Especialista PH</label>
+            </value>
+            <value>
+                <fullName>(PH) Disctribuidor Normal</fullName>
+                <default>false</default>
+                <label>(PH) Disctribuidor Normal</label>
+            </value>
+            <value>
+                <fullName>(PH) Distribuidor PH</fullName>
+                <default>false</default>
+                <label>(PH) Distribuidor PH</label>
+            </value>
+            <value>
+                <fullName>(PH) Call Center</fullName>
+                <default>false</default>
+                <label>(PH) Call Center</label>
+            </value>
+            <value>
+                <fullName>(MA) Director Comercial</fullName>
+                <default>false</default>
+                <label>(MA) Director Comercial</label>
+            </value>
+            <value>
+                <fullName>(MA) Director General</fullName>
+                <default>false</default>
+                <label>(MA) Director General</label>
+            </value>
+            <value>
+                <fullName>(MA) VP Comercial</fullName>
+                <default>false</default>
+                <label>(MA) VP Comercial</label>
+            </value>
+            <value>
+                <fullName>(MA) VP Finanzas</fullName>
+                <default>false</default>
+                <label>(MA) VP Finanzas</label>
+            </value>
+            <value>
+                <fullName>(MA) Director Juridico</fullName>
+                <default>false</default>
+                <label>(MA) Director Juridico</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Director Venta Directa</fullName>
+                <default>false</default>
+                <label>(MA/DI) Director Venta Directa</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Direccion Comercial Master SKY</fullName>
+                <default>false</default>
+                <label>(MA/DI) Direccion Comercial Master SKY</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Cuentas por Cobrar</fullName>
+                <default>false</default>
+                <label>(MA/DI) Cuentas por Cobrar</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Cuentas por Pagar</fullName>
+                <default>false</default>
+                <label>(MA/DI) Cuentas por Pagar</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Especialista Administrativo Ventas</fullName>
+                <default>false</default>
+                <label>(MA/DI) Especialista Administrativo Ventas</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Gerente Administrativo Ventas</fullName>
+                <default>false</default>
+                <label>(MA/DI) Gerente Administrativo Ventas</label>
+            </value>
+            <value>
+                <fullName>(MA/DI) Canal Training</fullName>
+                <default>false</default>
+                <label>(MA/DI) Canal Training</label>
+            </value>
+            <value>
+                <fullName>(DI) Gerente Regional SKY</fullName>
+                <default>false</default>
+                <label>(DI) Gerente Regional SKY</label>
+            </value>
+            <value>
+                <fullName>(DI) Call Center Externo</fullName>
+                <default>false</default>
+                <label>(DI) Call Center Externo</label>
+            </value>
+            <value>
+                <fullName>(DI) Gerente Master</fullName>
+                <default>false</default>
+                <label>(DI) Gerente Master</label>
+            </value>
+            <value>
+                <fullName>(DI) Ejecutivo Master</fullName>
+                <default>false</default>
+                <label>(DI) Ejecutivo Master</label>
+            </value>
+            <value>
+                <fullName>(DI) Ejecutivo Regional SKY</fullName>
+                <default>false</default>
+                <label>(DI) Ejecutivo Regional SKY</label>
+            </value>
+            <value>
+                <fullName>(DI) Instalador Externo</fullName>
+                <default>false</default>
+                <label>(DI) Instalador Externo</label>
+            </value>
+            <value>
+                <fullName>(DI) Distribuidores Red Alterna</fullName>
+                <default>false</default>
+                <label>(DI) Distribuidores Red Alterna</label>
+            </value>
+            <value>
+                <fullName>(DI) Comisionista</fullName>
+                <default>false</default>
+                <label>(DI) Comisionista</label>
+            </value>
+            <value>
+                <fullName>(MDU) Canales de Venta</fullName>
+                <default>false</default>
+                <label>(MDU) Canales de Venta</label>
+            </value>
+            <value>
+                <fullName>(MDU) Gerente distribuidores SKY</fullName>
+                <default>false</default>
+                <label>(MDU) Gerente distribuidores SKY</label>
+            </value>
+            <value>
+                <fullName>(MDU) Gerente de MDU</fullName>
+                <default>false</default>
+                <label>(MDU) Gerente de MDU</label>
+            </value>
+            <value>
+                <fullName>(MDU) Ejecutivo comercial MDU</fullName>
+                <default>false</default>
+                <label>(MDU) Ejecutivo comercial MDU</label>
+            </value>
+            <value>
+                <fullName>(MDU) Gerente comercial SKY</fullName>
+                <default>false</default>
+                <label>(MDU) Gerente comercial SKY</label>
+            </value>
+            <value>
+                <fullName>(MDU) Subdirector</fullName>
+                <default>false</default>
+                <label>(MDU) Subdirector</label>
+            </value>
+            <value>
+                <fullName>(MDU) Master</fullName>
+                <default>false</default>
+                <label>(MDU) Master</label>
+            </value>
+            <value>
+                <fullName>(MDU) Distribuidores</fullName>
+                <default>false</default>
+                <label>(MDU) Distribuidores</label>
+            </value>
+            <value>
+                <fullName>(MDU) Domicilios (Operaciones)</fullName>
+                <default>false</default>
+                <label>(MDU) Domicilios (Operaciones)</label>
+            </value>
+            <value>
+                <fullName>(MDU) Almacen</fullName>
+                <default>false</default>
+                <label>(MDU) Almacen</label>
+            </value>
+            <value>
+                <fullName>(MDU) Logistica</fullName>
+                <default>false</default>
+                <label>(MDU) Logistica</label>
+            </value>
+            <value>
+                <fullName>(MDU) PM seguimiento migraciones</fullName>
+                <default>false</default>
+                <label>(MDU) PM seguimiento migraciones</label>
+            </value>
+            <value>
+                <fullName>(MDU) Ejecutivo migraciones MDU</fullName>
+                <default>false</default>
+                <label>(MDU) Ejecutivo migraciones MDU</label>
+            </value>
+            <value>
+                <fullName>(MDU) Finanzas</fullName>
+                <default>false</default>
+                <label>(MDU) Finanzas</label>
+            </value>
+            <value>
+                <fullName>(SM) Tecnico Interno</fullName>
+                <default>false</default>
+                <label>(SM) Tecnico Interno</label>
+            </value>
+            <value>
+                <fullName>(SM) Tecnico Externo</fullName>
+                <default>false</default>
+                <label>(SM) Tecnico Externo</label>
+            </value>
+            <value>
+                <fullName>(SM) Vendedor Interno</fullName>
+                <default>false</default>
+                <label>(SM) Vendedor Interno</label>
+            </value>
+            <value>
+                <fullName>(SM) Vendedor Externo</fullName>
+                <default>false</default>
+                <label>(SM) Vendedor Externo</label>
+            </value>
+            <value>
+                <fullName>(SM) Gerente</fullName>
+                <default>false</default>
+                <label>(SM) Gerente</label>
+            </value>
+            <value>
+                <fullName>(SM) Ejecutivo</fullName>
+                <default>false</default>
+                <label>(SM) Ejecutivo</label>
+            </value>
+            <value>
+                <fullName>(SM) Validador</fullName>
+                <default>false</default>
+                <label>(SM) Validador</label>
+            </value>
+            <value>
+                <fullName>(SM) Canal Training</fullName>
+                <default>false</default>
+                <label>(SM) Canal Training</label>
+            </value>
+            <value>
+                <fullName>(PH) Cuentas por Cobrar</fullName>
+                <default>false</default>
+                <label>(PH) Cuentas por Cobrar</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>10</visibleLines>
+</CustomField>

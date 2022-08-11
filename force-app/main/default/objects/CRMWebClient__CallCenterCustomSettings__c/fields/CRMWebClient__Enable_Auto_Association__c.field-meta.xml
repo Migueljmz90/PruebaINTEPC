@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__Enable_Auto_Association__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to automatically associate the Contact and Related fields to the interaction&apos;s call log.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to automatically associate the Contact and Related fields to the interaction&apos;s call log.</inlineHelpText>
+    <label>Enable Auto Association on Navigation</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

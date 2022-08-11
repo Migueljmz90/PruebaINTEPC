@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Identificacion_Personal__c</fullName>
+    <externalId>false</externalId>
+    <label>Identificación Personal</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>LXD_Identificacion_Personal</valueSetName>
+    </valueSet>
+</CustomField>

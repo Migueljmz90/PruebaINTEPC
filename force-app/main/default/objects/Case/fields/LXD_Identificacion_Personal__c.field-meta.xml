@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Identificacion_Personal__c</fullName>
+    <externalId>false</externalId>
+    <label>Identificacion Personal</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Credencial para votar (INE)</fullName>
+                <default>false</default>
+                <label>Credencial para votar (INE)</label>
+            </value>
+            <value>
+                <fullName>Pasaporte</fullName>
+                <default>false</default>
+                <label>Pasaporte</label>
+            </value>
+            <value>
+                <fullName>Licencia para conducir</fullName>
+                <default>false</default>
+                <label>Licencia para conducir</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

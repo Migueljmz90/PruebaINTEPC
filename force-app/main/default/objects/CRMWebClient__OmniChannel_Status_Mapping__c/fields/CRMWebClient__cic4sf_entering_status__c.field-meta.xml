@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__cic4sf_entering_status__c</fullName>
+    <deprecated>false</deprecated>
+    <description>The status to listen for on PureConnect for Salesforce, which will trigger a status change on Omni-Channel.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>The status to listen for on PureConnect for Salesforce, which will trigger a status change on Omni-Channel.</inlineHelpText>
+    <label>PureConnect Entering Status</label>
+    <length>255</length>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__Interaction_Attributes</fullName>
+    <columns>NAME</columns>
+    <columns>OBJECT_ID</columns>
+    <columns>CRMWebClient__Attribute__c</columns>
+    <columns>CRMWebClient__Interaction_Type__c</columns>
+    <columns>CRMWebClient__Order__c</columns>
+    <columns>CRMWebClient__Shown__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <label>Interaction Attributes</label>
+</ListView>

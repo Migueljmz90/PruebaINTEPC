@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Nuevo_Distribuidor__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Clave del nuevo distribuidor en caso de cambio de razón social o cambio de master</inlineHelpText>
+    <label>Nuevo Distribuidor</label>
+    <length>25</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

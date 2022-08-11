@@ -1,0 +1,27 @@
+<aura:component implements="lightning:actionOverride,force:lightningQuickAction,force:hasRecordId" controller="LXD_CreateNewCaseController" access="global">
+    <aura:attribute name="fields"
+                    type="String[]"
+                    default="['ContactId', 'Subject', 'Description', 'Priority', 'Origin']"/>
+    <aura:attribute name="recordTypeID" type="String"/>
+    <aura:attribute name="userId" type="String"/>
+    <aura:handler name="init" value="{!this}" action="{!c.handleOnLoad}"/>
+    <lightning:notificationsLibrary aura:id="notifLib"/>
+    <lightning:workspaceAPI aura:id="workspace" />
+        <lightning:card title="Nuevo Caso">
+            <p class="slds-p-horizontal_small">
+                <lightning:recordForm 
+                    aura:id="myRecordForm"
+                    objectApiName="Case"
+                    fields="{!v.fields}"
+                    columns="1"
+                    onsuccess="{!c.handleSuccess}"
+                    recordTypeId="{!v.recordTypeID}"
+                    oncancel="{!c.handleCancel}"
+                    onsubmit="{!c.handleSubmit}"
+                />
+            </p>
+        </lightning:card>
+
+    
+    
+</aura:component>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Validacion_fecha_de_Nacimiento</fullName>
+    <active>true</active>
+    <description>Validar que la fecha de nacimiento no sea mayor o igual a la fecha actual.</description>
+    <errorConditionFormula>Birthdate &gt;= TODAY()</errorConditionFormula>
+    <errorMessage>No se puede seleccionar una fecha de nacimiento posterior a la fecha actual.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LXD_Perfil_Adicional</fullName>
+    <description>Casos de solicitud de perfil operativo adicional</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Activar perfil adicional</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Cancelado</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>En proceso</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Nuevo</fullName>
+        <default>true</default>
+    </values>
+</BusinessProcess>

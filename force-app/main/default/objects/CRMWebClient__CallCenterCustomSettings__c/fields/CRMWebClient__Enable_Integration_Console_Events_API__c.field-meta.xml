@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CRMWebClient__Enable_Integration_Console_Events_API__c</fullName>
+    <defaultValue>false</defaultValue>
+    <deprecated>false</deprecated>
+    <description>Check this box to enable special Salesforce console events to integrate with PureConnect for Salesforce. Reserved for Genesys Professional Services.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Check this box to enable special Salesforce console events to integrate with PureConnect for Salesforce. Reserved for Genesys Professional Services.</inlineHelpText>
+    <label>Enable Integration Console Events API</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

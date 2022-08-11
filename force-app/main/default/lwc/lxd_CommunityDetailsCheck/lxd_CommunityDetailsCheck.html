@@ -1,0 +1,27 @@
+<template>
+    <template if:false={avisoDePrivasidad}>
+        <div class="demo-only" style="height: 640px;">
+            <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true"
+                aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                    <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                            <lightning-formatted-rich-text
+                                value={knowledgeContent}
+                            ></lightning-formatted-rich-text>
+                            <lightning-messages>
+                            </lightning-messages>
+                            <footer class="slds-modal__footer">
+                                <lightning-button class="slds-m-top_small" variant="brand" name="update"
+                                    label="Aceptar" onclick={OnClick}>
+                                </lightning-button>
+                            </footer>
+                    </div>
+                </div>
+            </section>
+            <div class="slds-backdrop slds-backdrop_open"></div>
+        </div>
+        <template if:true={error}>
+            {error}>
+        </template>
+    </template>
+</template>

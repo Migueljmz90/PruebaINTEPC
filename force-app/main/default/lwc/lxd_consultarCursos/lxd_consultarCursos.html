@@ -1,0 +1,27 @@
+<template>
+
+    <lightning-quick-action-panel header="Consulta Cursos Moodle">
+
+        <div class="slds-grid slds-gutters ">
+            <div class="slds-col slds-size_11-of-12">
+                <lightning-input value={userIdentifier} type="text" variant="label-stacked" name="Identificador de Usuario" id="userIdentifier" label="Identificador de Usuario" placeholder="Escriba aqui..."></lightning-input>
+            </div>  
+            <div class="slds-col slds-size_1-of-12 align-self-end" style="margin-top: 22px">
+                <lightning-button-icon variant="base" size="medium" icon-name="utility:search" alternative-text="search"
+                onclick={handleSearch}></lightning-button-icon>
+            </div>
+        </div>
+        <template if:true={showNotasCursos}>
+            <div style="height: 300px;">
+                <lightning-datatable
+                        key-field="id"
+                        data={notasCursos}
+                        columns={columns}
+                        hide-checkbox-column>
+                </lightning-datatable>
+            </div>    
+        </template>
+
+    </lightning-quick-action-panel>
+
+</template>
